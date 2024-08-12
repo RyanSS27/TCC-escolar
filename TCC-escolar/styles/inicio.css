@@ -1,0 +1,82 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor1: #200d07cc;
+    --cor2: #51230b;
+    --cor3: #9d5b10;
+    --cor4: #c58b44;
+    --cor5: #f8f4f1;
+    --cor6: #fff;
+    --cor-destaque: #f28f0d;
+}
+
+h1 {
+    color: var(--cor5);
+}
+
+div.topo {
+    background-color: var(--cor-destaque);
+    height: 5px;
+    width: 100vw;
+    display: block;
+}
+
+#img-capa-superior {
+    background-image: var(--cor5) url(../imagens/WhatsApp\ Image\ 2024-08-12\ at\ 12.16.58.jpeg) center center / cover  no-repeat fixed;
+    min-height: 600px;
+    width: 100vw;
+    display: block;
+}
+
+header {
+    background-color: var(--cor1);
+    width: 100%;
+    min-height: 125px;
+
+    padding: 20px 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.divisoria2 {
+    display: flex;
+    justify-content: end;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 40px;
+    width: 100px;
+}
+
+nav>div:hover {
+    background-color: #545454;
+    box-shadow: 2px 2px 3px 0px black;
+
+    border-bottom: 1px solid orange;
+    transition: 0.5s;
+}
+
+
+nav a {
+    color: var(--cor5);
+    text-decoration: none;
+}
