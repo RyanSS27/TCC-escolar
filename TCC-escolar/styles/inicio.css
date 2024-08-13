@@ -4,15 +4,23 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
 }
 
 :root {
-    --cor1: #200d07cc;
-    --cor2: #51230b;
-    --cor3: #9d5b10;
-    --cor4: #c58b44;
-    --cor5: #f8f4f1;
-    --cor6: #fff;
+    --cor1: #ffffff;
+    --cor2: #000000;
+    --paletaCor1: #36160B;
+    --paletaCor2: #51230b;
+    --paletaCor3: #9d5b10;
+    --paletaCor4: #c58b44;
+    --paletaCor5: #f8f4f1;
+    --paletaCor6: #fff;
     --cor-destaque: #f28f0d;
 }
 
@@ -23,20 +31,19 @@ h1 {
 div.topo {
     background-color: var(--cor-destaque);
     height: 5px;
-    width: 100vw;
+    width: 100%;
     display: block;
 }
 
-#img-capa-superior {
-    background-image: var(--cor5) url(../imagens/WhatsApp\ Image\ 2024-08-12\ at\ 12.16.58.jpeg) center center / cover  no-repeat fixed;
+#fundo-img-superior {
+    background: var(--cor-destaque) url(../imagens/img-fundo.jpeg) center/ cover no-repeat fixed;
     min-height: 600px;
-    width: 100vw;
     display: block;
 }
 
 header {
-    background-color: var(--cor1);
-    width: 100%;
+    background-color: #000000cc;
+    color: var(--paletaCor5);
     min-height: 125px;
 
     padding: 20px 50px;
@@ -44,39 +51,48 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-
-.divisoria2 {
-    display: flex;
-    justify-content: end;
+.logo {
+    display: inline;
+    margin: auto;
 }
-
 
 nav {
+    margin: auto;
+    min-height: 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-nav>div {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    min-height: 40px;
-    width: 100px;
-}
-
-nav>div:hover {
-    background-color: #545454;
-    box-shadow: 2px 2px 3px 0px black;
-
-    border-bottom: 1px solid orange;
+nav>a:hover {
+    border-bottom: 1px solid var(--cor-destaque);
     transition: 0.5s;
 }
 
+nav>a:active {
+    scale: 97%;
+}
 
 nav a {
     color: var(--cor5);
     text-decoration: none;
+    margin: 15px;
+    padding: 5px 15px;
+}
+
+.cadastro  {
+    border-radius: 5px;
+    border: 1px solid var(--cor-destaque);
+}
+
+.cadastro:hover {
+    background-color: #c58b4436;
+    border: 1px solid #ffffff00;
+}
+
+.cadastro:active {
+    scale: 95%;
 }
