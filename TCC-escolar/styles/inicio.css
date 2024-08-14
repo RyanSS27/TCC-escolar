@@ -28,14 +28,7 @@ h1 {
     color: var(--cor5);
 }
 
-div.topo {
-    background-color: var(--cor-destaque);
-    height: 5px;
-    width: 100%;
-    display: block;
-}
-
-#fundo-img-superior {
+#container-topo-img {
     background: var(--cor-destaque) url(../imagens/img-fundo.jpeg) center/ cover no-repeat fixed;
     min-height: 600px;
     display: block;
@@ -44,9 +37,12 @@ div.topo {
 header {
     background-color: #000000cc;
     color: var(--paletaCor5);
-    min-height: 125px;
 
+    min-height: 125px;
+    width: 100%;
     padding: 20px 50px;
+    border-top: 5px solid var(--cor-destaque);
+    position: fixed;
 
     display: flex;
     align-items: center;
@@ -95,4 +91,37 @@ nav a {
 
 .cadastro:active {
     scale: 95%;
+}
+
+.divisao-topo-textos {
+    background-color: var(--paletaCor5);
+    display: block;
+    padding: 250px 50px 50px 50px;
+    min-height: 600px;
+    max-width: 750px;
+    border-radius: 0px 0px 0px 0px;
+    box-shadow: 5px 6px 12px 3px rgba(0, 0, 0, 0.621)
+}
+
+.divisao-topo-textos > h1 {
+    color: var(--paletaCor1);
+    font-size: 2.5em;
+    margin: 10px 0px;
+    max-width: 500px;
+    border-bottom: 2px solid var(--paletaCor1);
+}
+
+.divisao-topo-textos > h1 > span {
+    font-weight: 1500;
+}
+
+.divisao-topo-textos > h2 {
+    color: var(--cor-destaque);
+}
+
+.divisao-topo-textos > p {
+    font-size: 1.5em;
+    text-align: justify;
+    max-width: 500px;
+    margin: 50px 0px;
 }
