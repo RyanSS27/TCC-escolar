@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/* Style para telas */
 
 * {
     margin: 0px;
@@ -44,6 +45,8 @@ header {
     border-top: 5px solid var(--cor-destaque);
     position: fixed;
 
+    padding: 20px 100px;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -52,7 +55,7 @@ header {
 
 .logo {
     display: inline;
-    margin: auto;
+    max-width: 100px;
 }
 
 nav {
@@ -63,12 +66,12 @@ nav {
     flex-wrap: wrap;
 }
 
-nav>a:hover {
+nav a:hover {
     border-bottom: 1px solid var(--cor-destaque);
     transition: 0.5s;
 }
 
-nav>a:active {
+nav a:active {
     scale: 97%;
 }
 
@@ -77,6 +80,12 @@ nav a {
     text-decoration: none;
     margin: 15px;
     padding: 5px 15px;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cadastro  {

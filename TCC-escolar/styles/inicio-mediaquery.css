@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+/* CELULARES */
+@media screen and (max-width:600px) {
+    
+}
+
+/* CELULARES GRANDES E TABLETS */
+@media screen and (max-width: 768px) {
+
+}
+
+/* COMPUTADORES */
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and (max-width: 1040px) {
+    img.logo {
+        margin: auto;
+    }
+}
+
+/* TVs e GRANDES TELAS */
+@media screen and (max-width: 1200) {
+
+}
