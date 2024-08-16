@@ -9,18 +9,21 @@
 }
 
 body, html {
+    font-size: 1.2em;
     width: 100%;
     height: 100%;
 }
 
+/* #200e07 */
+
 :root {
     --cor1: #ffffff;
-    --cor2: #000000;
-    --paletaCor1: #36160B;
-    --paletaCor2: #51230b;
-    --paletaCor3: #9d5b10;
+    --cor2: ;
+    --paletaCor1: #0c2b3a;
+    --paletaCor2: #164d69;
+    --paletaCor3: #2680af;
     --paletaCor4: #c58b44;
-    --paletaCor5: #f8f4f1;
+    --paletaCor5: #e6ede8;
     --paletaCor6: #fff;
     --cor-destaque: #f28f0d;
 }
@@ -42,7 +45,7 @@ header {
     min-height: 125px;
     width: 100%;
     padding: 20px 50px;
-    border-top: 5px solid var(--cor-destaque);
+    border-top: 5px solid var(--paletaCor3);
     position: fixed;
 
     padding: 20px 100px;
@@ -114,7 +117,7 @@ nav div {
 
 .divisao-topo-textos > h1 {
     color: var(--paletaCor1);
-    font-size: 2.5em;
+    font-size: 1.7em;
     margin: 10px 0px;
     max-width: 500px;
     border-bottom: 2px solid var(--paletaCor1);
@@ -129,8 +132,38 @@ nav div {
 }
 
 .divisao-topo-textos > p {
-    font-size: 1.5em;
+    font-size: 1.1em;
     text-align: justify;
     max-width: 500px;
     margin: 50px 0px;
+}
+
+.teste {
+     background-color: var(--cor1);
+     padding: 50px;
+
+     box-shadow: inset 1px 1px 8px 1px #00000078
+}
+
+
+
+.reparticao {
+    background-color: var(--paletaCor1);
+    color: var(--paletaCor5);
+
+    width: 90%;
+    margin: -100px auto 0px auto;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.reparticao > h2 {
+    color: var(--paletaCor5);
+    font-size: 2em;
+    margin: 0px 0px 20px 0px;
+}
+
+.reparticao > p {
+    text-align: justify;
+    max-width: 500px;
 }

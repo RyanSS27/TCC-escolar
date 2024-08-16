@@ -1,16 +1,18 @@
-let num = [11,  2,  3,  5, 6, 10, 27, 14]
+/*var body = document.getElementsByTagName('body')
+body.addEventListener('scroll', rolou())
 
-for (pos in num) {
-    for (cont in num){ 
-        if (num[pos] < num[cont]) {
-            var n = num[pos] 
-            num[pos] = 
-            num[cont] 
-            num[cont] = n
-        }
+let ultimaPosicao = 0
+
+rolou() {
+    if (scrollY > ultimaPosicao) {
+        var cabecalho = window.querySelector('header')
+        cabecalho.style.position = 'fixed'
+        ultimaPosicao = scrollY
+    } else {
+        var cabecalho = window.querySelector('header')
+        cabecalho.style.position = ''
+        ultimaPosicao = scrollY
     }
-}
-
-console.log(num)
+}*/
 
 
