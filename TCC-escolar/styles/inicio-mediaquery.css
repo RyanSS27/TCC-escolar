@@ -6,12 +6,12 @@
 }
 
 /* CELULARES GRANDES E TABLETS */
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
 
 }
 
 /* COMPUTADORES */
-@media screen and (max-width: 992px) {
+@media screen and (min-width: 992px) {
 
 }
 
@@ -22,6 +22,6 @@
 }
 
 /* TVs e GRANDES TELAS */
-@media screen and (max-width: 1200) {
+@media screen and (min-width: 1200) {
 
 }

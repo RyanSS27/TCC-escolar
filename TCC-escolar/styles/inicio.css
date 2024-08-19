@@ -106,21 +106,22 @@ nav div {
 }
 
 .divisao-topo-textos {
-    background-color: var(--paletaCor5);
+    background-image: linear-gradient(to right, black, #0000000b);
+
     display: block;
     padding: 250px 50px 50px 50px;
     min-height: 600px;
-    max-width: 750px;
+    width: 100%;
     border-radius: 0px 0px 0px 0px;
     box-shadow: 5px 6px 12px 3px rgba(0, 0, 0, 0.621)
 }
 
 .divisao-topo-textos > h1 {
-    color: var(--paletaCor1);
+    color: var(--paletaCor5);
     font-size: 1.7em;
     margin: 10px 0px;
     max-width: 500px;
-    border-bottom: 2px solid var(--paletaCor1);
+    border-bottom: 2px solid var(--paletaCor3);
 }
 
 .divisao-topo-textos > h1 > span {
@@ -132,6 +133,7 @@ nav div {
 }
 
 .divisao-topo-textos > p {
+    color: var(--paletaCor5);
     font-size: 1.1em;
     text-align: justify;
     max-width: 500px;
