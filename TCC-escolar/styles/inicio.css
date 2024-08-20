@@ -41,11 +41,12 @@ h1 {
 header {
     background-color: #000000cc;
     color: var(--paletaCor5);
+    font-size: 0.7em;
 
     min-height: 125px;
     width: 100%;
     padding: 20px 50px;
-    border-top: 5px solid var(--paletaCor3);
+    border-top: 5px solid var(--cor-destaque);
     position: fixed;
 
     padding: 20px 100px;
