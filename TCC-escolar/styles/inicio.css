@@ -21,7 +21,7 @@ body, html {
     --cor2: ;
     --paletaCor1: #030e12;
     --paletaCor2: #164d69;
-    --paletaCor3: #2680af;
+    --paletaCor3: #3298d0;
     --paletaCor4: #c58b44;
     --paletaCor5: #e6ede8;
     --paletaCor6: #fff;
@@ -68,6 +68,7 @@ nav {
     min-height: 20px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -94,17 +95,28 @@ nav div {
 }
 
 .cadastro  {
+    font-weight: bold;
     border-radius: 5px;
     border: 1px solid var(--cor-destaque);
+    color: var(--cor1);
+    padding: 10px 15px;
 }
 
 .cadastro:hover {
-    background-color: #c58b4436;
+    background-color: #c58b4464;
     border: 1px solid #ffffff00;
+
+    transition-duration: 0.3s;
+    scale: 90%;
 }
 
 .cadastro:active {
-    scale: 95%;
+    background-color: var(--cor-destaque);
+    scale: 85%;
+}
+
+nav > div > a {
+    font-weight: bold;
 }
 
 .divisao-topo-textos {
@@ -138,14 +150,13 @@ nav div {
     margin: 50px 0px;
 }
 
-.divisao-topo-textos div {
+.divisao-topo-textos > div {
     text-align: right;
     max-width: 500px;
 }
 
-.divisao-topo-textos span.cadastro {
-    color: var(--cor1);
-    padding: 5px 10px;
+.divisao-topo-textos > div > div {
+    display: inline-block;
 }
 
 .nossos-servicos {
@@ -182,10 +193,13 @@ nav div {
 .inicio-da-jornada h3 {
     color: var(--cor-destaque);
     font-size: 1.4em;
+
+    width: 100%;
+    margin-top: 100px;
 }
 
 .inicio-da-jornada h2 {
-    color: var(--paletaCor1);
+    color: var(--paletaCor5);
     font-size: 2em;
     margin-bottom: 50px;
 }
@@ -210,32 +224,51 @@ nav div {
     height: 10px;
 }*/
 
+.container-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .cards {
-    /* background-color: #f2f7f4; */
+    background-color: #07222b;
     min-height: 350px;
     max-width: 440px;
-    min-
+    min-width: 440px;
 
     margin: 15px;
     padding: 15px;
     border: 2px solid var(--paletaCor2);
     border-radius: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .cards:hover {
     border: 2px solid var(--paletaCor3);
     scale: 103%;
-    box-shadow: 0px 6px 5px 0px #030e1273;
-}
-
-
-.cards:hover h4 {
-    color: var(--paletaCor3);
+    box-shadow: 1px 3px 6px 1px #ffffff73;
 }
 
 .cards h4 {
-    color: var(--paletaCor2);
+    color: var(--paletaCor3);
 
+    min-width: 100%;
     margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid var(--paletaCor2);
 }
+
+.cards:hover h4 {
+    color: var(--cor-destaque);
+    border-bottom: 2px solid var(--cor-destaque);
+}
+
+.inicio-da-jornada > .cadastro {
+    text-align: center;
+    max-width: 200px;
+    margin: 15px auto;
+}
+
 
