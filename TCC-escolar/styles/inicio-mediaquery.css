@@ -15,9 +15,12 @@
 
 }
 
-@media screen and (max-width: 1040px) {
-    img.logo {
+@media screen and (max-width: 1180px) {
+    h1.logo {
         margin: auto;
+    }
+    nav {
+        width: 100%;
     }
 }
 
