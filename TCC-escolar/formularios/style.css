@@ -1,0 +1,251 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'noto-sans';
+    src: url(../noto-sans/NotoSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'noto-bold';
+    src: url(../noto-sans/NotoSans-Bold.ttf) format('truetype');
+}
+
+:root {
+    --cor1: #ffffff;
+    --cor2: ;
+    --paletaCor1: #030e12;
+    --paletaCor2: #164d69;
+    --paletaCor3: #3298d0;
+    --paletaCor4: #c58b44;
+    --paletaCor5: #e6ede8;
+    --paletaCor6: #fff;
+    --cor-destaque: #f28f0d;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'noto-sans', times, Helvetica, sans-serif;
+}
+
+body, html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background: #292929 url(imagens-forms/fundo-cadastro.png) center center / cover no-repeat fixed;
+}
+
+.container {
+    height: 100vh;
+    max-width: 500px;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create-account {
+    max-width: 500px;
+}
+
+form {
+    background-color: #363f436c;
+    backdrop-filter: blur(5px);
+
+    color: #fff;
+    font: normal normal bold 'noto-sans', arial, helvetica, sans-serif;
+
+    width: 100%;
+    padding: 25px 25px 75px 25px;
+    border: 1px solid rgba(255, 255, 255, 0.342);
+    border-radius: 5px;
+}
+
+header {
+    margin: 25px 0px 0px 0px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    margin: 0px;
+    font: normal normal bold 'noto-bold', arial, helvetica, sans-serif;
+}
+
+hr {
+    max-width: 30%;
+}
+
+.voltar {
+    background-color: var(--paletaCor3);
+    color: var(--cor1);
+    font-size: small;
+    text-align: center;
+    text-decoration: none;
+
+    
+    padding: 5px 15px;
+    border-radius: 1px solid var(--paletaCor3);
+    border-radius: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.voltar:hover {
+    background-color: #3299d05b;
+    border: 1px solid var(--paletaCor3);
+    transition: 0.3s;
+}
+
+.voltar:active {
+    background-color: var(--paletaCor3);
+}
+
+.campos-de-preenchimento {
+    max-width: 500px;
+    margin: 25px auto 50px auto;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.campos {
+    margin-top: 25px;
+}
+
+.legenda {
+    margin-bottom: 5px;
+    box-sizing: border-box;
+}
+
+.campos > input {
+    background-color: #ffffff7c;
+
+    height: 30px;
+    min-width: 215px;
+    box-sizing: border-box;
+    padding: 5px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+::placeholder {
+    color: var(--paletaCor2);
+    font-weight: bold;
+}
+
+.campos > input:focus {
+    outline: none;
+    border: 2px solid white;
+}
+
+.legenda {
+    color: #e9e9e9;
+    font: normal bold small 'noto-sans', arial, helvetica, sans-serif;
+}
+
+.campos {
+    display: inline-block;
+}
+
+.opcoes {
+    display: inline-block;
+}
+
+.centralizar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.cadastro {
+    background-color: #e9e9e900;
+    color: var(--cor1);
+    font-size: 1.2em;
+
+    min-height: 50px;
+    min-width: 200px;
+    border: none;
+}
+
+
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px 40px;
+    display: inline-block;
+    border-radius: 100px;
+    transition: all .2s;
+    position: absolute;
+}
+
+.btn:hover {
+    background-color: var(--cor-destaque);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover > input {
+    color: var(--cor1);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+    margin: auto;
+    color: var(--cor1);
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn-white::after {
+    background-color: #00000000;
+    color: var(--cor1);
+    border: 1px solid var(--cor1);
+}
+
+.btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}

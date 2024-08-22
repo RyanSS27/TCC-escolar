@@ -51,10 +51,10 @@ header {
     width: 100%;
     padding: 20px 50px;
     border-top: 5px solid var(--cor-destaque);
-    position: fixed;
-
     padding: 20px 100px;
 
+    position: fixed;
+    z-index: 10;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -98,11 +98,17 @@ nav div {
 }
 
 .cadastro  {
+    color: var(--cor1);
     font-weight: bold;
+    text-decoration: none;
+    padding: 10px 15px;
     border-radius: 5px;
     border: 1px solid var(--cor-destaque);
-    color: var(--cor1);
-    padding: 10px 15px;
+}
+
+.link-cadastro {
+    display: inline-block;
+    text-decoration: none;
 }
 
 .cadastro:hover {
@@ -271,10 +277,15 @@ hr {
     border-bottom: 2px solid var(--cor-destaque);
 }
 
-.inicio-da-jornada > .cadastro {
-    text-align: center;
+.inicio-da-jornada > a {
     max-width: 200px;
     margin: 15px auto;
+    display: block;
+}
+
+.inicio-da-jornada .cadastro {
+    text-align: center;
+    max-width: 200px;
 }
 
 .beneficios{

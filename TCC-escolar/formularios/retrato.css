@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+.campos-de-preenchimento {
+    justify-content: center;
+    align-items: center;
+}
+
+.campos {
+    width: 80%;
+}
+.campos > input {
+    width: 100%;
+}

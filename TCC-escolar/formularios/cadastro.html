@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../pictures/meuicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css" media="all">
+    <link rel="stylesheet" href="retrato.css" media="screen and (orientation: portrait)">
+    <link rel="stylesheet" href="style-dia.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="container">
+        <form action="lugar-nenhum.php" method="post" autocomplete="on">
+                <header>
+                    <h1 id="titulo">Cadastro
+                        <hr>
+                    </h1>
+                    <a href="../index.html">
+                        <div class="voltar">Voltar</div>
+                    </a>
+                </header>
+                <div class="campos-de-preenchimento">
+                    <div class="campos">
+                        <label for="inome">
+                            <div class="legenda">Nome completo</div>
+                        </label>
+                        <input type="text" name="nome" id="inome" placeholder="Digite o seu nome completo">
+                    </div>
+                    <div class="campos">
+                        <label for="iapelido">
+                            <div class="legenda">Apelido</div>
+                        </label>
+                        <input type="text" name="apelido" id="iapelido" class="campo" autocomplete="nickname" placeholder="Digite como deseja ser chamado">
+                    </div class="campos">
+                    <div class="campos">
+                        <label for="iemail">
+                            <div class="legenda">E-mail</div>
+                        </label>
+                        <input type="email" name="email" id="iemail" class="campo" autocomplete="email" placeholder="Digite o seu e-mail">
+                    </div>
+                    <div class="campos">
+                        <label for="isenha">
+                            <div class="legenda">Senha</div>
+                        </label>
+                        <input type="password" name="senha" id="isenha" class="campo" autocomplete="new-password" placeholder="Digite sua senha" minlength="7">
+                    </div>
+                    <div class="campos">
+                        <label for="iconfirme">
+                            <div class="legenda">Confime sua senha</div>
+                        </label>
+                        <input type="password" name="confirme" id="iconfirme" class="campo" placeholder="Confime sua senha">
+                    </div>
+                </div>
+                <div class="centralizar">
+                    
+                        <a href="#" class="btn btn-white btn- animate">Enviar
+                        </a>
+                </div>
+            </form>
+    </div>
+
+    <script src="../scripts/script.js"></script>
+</body>
+</html>
