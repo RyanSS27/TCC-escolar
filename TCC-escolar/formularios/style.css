@@ -177,12 +177,21 @@ a {
 }
 
 
+button {
+    background-color: #ffffff00;
+    color: var(--paletaCor5);
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 100px;
+}
+
 
 .btn:link,
 .btn:visited {
     text-transform: uppercase;
     text-decoration: none;
-    padding: 15px 40px;
     display: inline-block;
     border-radius: 100px;
     transition: all .2s;
@@ -195,7 +204,7 @@ a {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-.btn:hover > input {
+.btn:hover button {
     color: var(--cor1);
 }
 

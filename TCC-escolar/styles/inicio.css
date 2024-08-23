@@ -9,6 +9,7 @@
 }
 
 body, html {
+    background-color: var(--paletaCor1);
     font-size: 1.2em;
     width: 100%;
     height: 100%;
@@ -273,8 +274,8 @@ hr {
 }
 
 .cards:hover h4 {
-    color: var(--cor-destaque);
-    border-bottom: 2px solid var(--cor-destaque);
+    color: #88bad5;
+    border-bottom: 2px solid #88bad5;
 }
 
 .inicio-da-jornada > a {
@@ -330,3 +331,93 @@ hr {
 
 
 
+
+
+
+
+
+
+hr.separacao {
+    margin:auto;
+    width: 90vw;
+}
+
+footer {
+    background-color: var(--paletaCor1);
+    color: var(--paletaCor5);
+    font-size: 0.7em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+}
+
+footer div {
+    min-width: 100px;
+    max-width: 250px;
+    margin: 20px 5vw;
+}
+
+.redes {
+    display: flex;
+}
+
+.logo-footer {
+    max-width: 150px;
+}
+
+footer img,
+footer .titulo {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 2.4rem;
+}
+
+.icons {
+    margin: 0px 5px;
+    max-height: 20px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.icons:hover {
+    scale: 110%;
+}
+
+footer nav a {
+    color: var(--paletaCor5);
+    display: block;
+    margin-bottom: 1.6rem;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--paletaCor4);
+    text-decoration: underline;
+}
+
+footer p {
+    margin-bottom: 1.6rem;
+    max-width: 35.0rem;
+}
+
+footer p a {
+    color: var(--paletaCor5);
+    text-decoration: none;
+}
+
+#copyright {
+    background-color: #0f445657;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 0.8em;
+
+    width: 90vw;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+#copyright a {
+    color: var(--cor-destaque);
+}
