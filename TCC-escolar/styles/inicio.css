@@ -10,6 +10,7 @@
 
 body, html {
     background-color: var(--paletaCor1);
+    color: var(--paletaCor5);
     font-size: 1.2em;
     width: 100%;
     height: 100%;
@@ -22,18 +23,22 @@ body, html {
 
 :root {
     --cor1: #ffffff;
-    --cor2: ;
+    --cor2: #000000;
     --paletaCor1: #030e12;
     --paletaCor2: #164d69;
     --paletaCor3: #3298d0;
     --paletaCor4: #c58b44;
     --paletaCor5: #e6ede8;
     --paletaCor6: #fff;
+
+    --cor-textos: #e6ede8;
+    --cor-texto-fundo-contraste: #030e12;
+
     --cor-destaque: #f28f0d;
 }
 
 h1 {
-    color: var(--cor5);
+    color: var(--cor-textos);
 }
 
 #container-topo-img {
@@ -45,7 +50,6 @@ h1 {
 header {
     background-color: #000000cc;
     backdrop-filter: blur(3px);
-    color: var(--paletaCor5);
     font-size: 0.7em;
 
     min-height: 125px;
@@ -86,7 +90,7 @@ nav a:active {
 }
 
 nav a {
-    color: var(--cor5);
+    color: var(--cor-textos);
     text-decoration: none;
     margin: 15px;
     padding: 5px 15px;
@@ -99,7 +103,7 @@ nav div {
 }
 
 .cadastro  {
-    color: var(--cor1);
+    color: var(--cor-textos);
     font-weight: bold;
     text-decoration: none;
     padding: 10px 15px;
@@ -140,20 +144,24 @@ nav > div > a {
     box-shadow: 5px 6px 12px 3px rgba(0, 0, 0, 0.621)
 }
 
+h1 {
+    color: var(--cor-textos);
+    font-size: 2em;
+}
+
 .divisao-topo-textos > h1 {
-    color: var(--paletaCor5);
-    font-size: 1.7em;
     margin: 10px 0px;
     max-width: 500px;
     border-bottom: 2px solid var(--paletaCor3);
 }
 
-.divisao-topo-textos > h2 {
+.titulo-destaque {
     color: var(--cor-destaque);
+    font-size: 1.4em;
 }
 
 .divisao-topo-textos > p {
-    color: var(--paletaCor5);
+    color: var(--cor-textos);
     font-size: 1.1em;
     text-align: justify;
     max-width: 500px;
@@ -181,13 +189,11 @@ hr {
 }
 
 .inicio-da-jornada {
-    max-width: 80%;
+    max-width: 1100px;
     margin: auto;
 }
 
 .inicio-da-jornada > h1 {
-    color: var(--paletaCor5);
-    font-size: 2em;
     text-align: center;
     margin: 100px 0px 50px 0px;
 }
@@ -202,80 +208,65 @@ hr {
 }
 
 .inicio-da-jornada h3 {
-    color: var(--cor-destaque);
-    font-size: 1.4em;
-
     width: 100%;
     margin: 100px 15px 0px 15px;
 }
 
+h2 {
+    color: var(--cor-textos);
+    font-size: 1.7em;
+}
+
 .inicio-da-jornada h2 {
-    color: var(--paletaCor5);
-    font-size: 2em;
     width: 100%;
     margin: 0px 15px 50px 15px;
 }
 
-/*.container-cards {
-    height: 400px;
-    display: flex;
-    justify-content: space-between;
-    overflow-y: auto;
+
+.capitulo {
+    padding: 50px 25px;
 }
 
-.container-cards::-webkit-scrollbar {
-    background-color: #00000090;
-    position: relative;
-    top: 0px;
-    max-width: 100px;
-    height: 5px;
-}
-
-.container-cards::-webkit-scrollbar-thumb {
-    background-color: var(--cor-destaque);
-    height: 10px;
-}*/
-
-.container-cards {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.cards {
-    background-color: #07222b57;
-    min-height: 350px;
-    max-width: 440px;
-    min-width: 440px;
-
-    margin: 15px;
-    padding: 15px;
-    border: 2px solid var(--paletaCor2);
-    border-radius: 10px;
+.limite {
+    max-width: 1100px;
+    margin: 0px auto;
 
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.cards:hover {
-    border: 2px solid var(--paletaCor3);
-    scale: 103%;
-    box-shadow: 1px 3px 6px 1px #ffffff73;
+.cap-fundo1 > .limite > img {
+    box-shadow: 6px 8px 18px #0000003b;
+    border: 4px solid white;
 }
 
-.cards h4 {
-    color: var(--paletaCor3);
+.capitulo > .limite > img {
 
-    min-width: 100%;
-    margin-bottom: 15px;
-    padding-bottom: 5px;
-    border-bottom: 2px solid var(--paletaCor2);
+    max-width: 550px;
 }
 
-.cards:hover h4 {
-    color: #88bad5;
-    border-bottom: 2px solid #88bad5;
+.capitulo > .limite > .conteudo {   
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0px 25px;
+}
+
+.capitulo h4 {
+    font-size: 1.5em;
+}
+
+.capitulo p {
+    margin-top: 25px;
+}
+
+.cap-fundo1 {
+    background-color: var(--paletaCor6);
+    color: var(--paletaCor1);
+}
+
+.cap-fundo2 {
+    background-color: var(--paletaCor1);
 }
 
 .inicio-da-jornada > a {
@@ -291,7 +282,12 @@ hr {
 
 .beneficios{
     background-color: var(--paletaCor1);
+    
     width: 100%;
+}
+
+.beneficios h2 {
+    color: var(--paletaCor1);
 }
 
 .arte-de-estudar {
@@ -421,3 +417,73 @@ footer p a {
 #copyright a {
     color: var(--cor-destaque);
 }
+
+
+
+
+
+
+
+
+
+/*.container-cards {
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    overflow-y: auto;
+}
+
+.container-cards::-webkit-scrollbar {
+    background-color: #00000090;
+    position: relative;
+    top: 0px;
+    max-width: 100px;
+    height: 5px;
+}
+
+.container-cards::-webkit-scrollbar-thumb {
+    background-color: var(--cor-destaque);
+    height: 10px;
+}*/
+
+/* .container-cards {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.cards {
+    background-color: #07222b57;
+    min-height: 350px;
+    max-width: 440px;
+    min-width: 440px;
+
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid var(--paletaCor2);
+    border-radius: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cards:hover {
+    border: 2px solid var(--paletaCor3);
+    scale: 103%;
+    box-shadow: 1px 3px 6px 1px #ffffff73;
+}
+
+.cards h4 {
+    color: var(--paletaCor3);
+
+    min-width: 100%;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid var(--paletaCor2);
+}
+
+.cards:hover h4 {
+    color: #88bad5;
+    border-bottom: 2px solid #88bad5;
+} */
