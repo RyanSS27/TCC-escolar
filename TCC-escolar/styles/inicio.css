@@ -1,22 +1,23 @@
 @charset "UTF-8";
 
-/* Style para telas */
+
+/* Style para telas de PC e Televisões*/
+
+@font-face {
+    font-family: 'noto-sans';
+    src: url(noto-sans/NotoSans-Regular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'noto-bold';
+    src: url(noto-sans/NotoSans-Bold.ttf) format(truetype);
+}
+
 
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
-
-body, html {
-    background-color: var(--paletaCor1);
-    color: var(--paletaCor5);
-    font-size: 1.2em;
-    width: 100%;
-    height: 100%;
-
-    padding: 0px;
-    margin: 0px;
 }
 
 /* #200e07 */
@@ -35,6 +36,23 @@ body, html {
     --cor-texto-fundo-contraste: #030e12;
 
     --cor-destaque: #f28f0d;
+}
+
+:root {
+    --font-titulos: "noto-bold";
+    --font-padrao: "noto-sans", 'Times New Roman', Times, serif;
+}
+
+body, html {
+    background-color: var(--paletaCor1);
+    color: var(--paletaCor5);
+    font-size: 1.2em;
+    font-family: var(--font-padrao);
+    width: 100%;
+    height: 100%;
+
+    padding: 0px;
+    margin: 0px;
 }
 
 h1 {
@@ -146,6 +164,7 @@ nav > div > a {
 
 h1 {
     color: var(--cor-textos);
+    font: bold 2em var(--font-titulos);
     font-size: 2em;
 }
 
@@ -208,11 +227,13 @@ hr {
 }
 
 .inicio-da-jornada h3 {
+    font-family: var(--font-titulos);
     width: 100%;
     margin: 100px 15px 0px 15px;
 }
 
 h2 {
+    font-family: var(--font-titulos);
     color: var(--cor-textos);
     font-size: 1.7em;
 }
@@ -241,8 +262,12 @@ h2 {
     border: 4px solid white;
 }
 
-.capitulo > .limite > img {
+.cap-fundo2 > .limite > img {
+    box-shadow: -6px 8px 18px #ffffff3b;
+    border: 4px solid white;
+}
 
+.capitulo > .limite > img {
     max-width: 550px;
 }
 
@@ -253,6 +278,7 @@ h2 {
 }
 
 .capitulo h4 {
+    font-family: var(--font-titulos);
     font-size: 1.5em;
 }
 
@@ -269,15 +295,17 @@ h2 {
     background-color: var(--paletaCor1);
 }
 
-.inicio-da-jornada > a {
+.nossos-servicos > a {
     max-width: 200px;
     margin: 15px auto;
     display: block;
 }
 
-.inicio-da-jornada .cadastro {
+.nossos-servicos .cadastro {
+    background-color: var(--cor-destaque);
     text-align: center;
     max-width: 200px;
+    margin: auto;
 }
 
 .beneficios{
@@ -315,6 +343,95 @@ h2 {
     margin-top: 50px;
 }
 
+.container-alunos {
+    height: 400px;
+    max-width: 1100px;
+    margin: 0px auto 100px auto;
+
+    display: flex;
+    justify-content: space-between;
+    overflow-y: auto;
+}
+
+.container-alunos::-webkit-scrollbar {
+    background-color: #00000090;
+    position: relative;
+    top: 0px;
+    max-width: 100px;
+    height: 5px;
+}
+
+.container-alunos::-webkit-scrollbar-thumb {
+    background-color: var(--cor-destaque);
+    height: 10px;
+}
+
+ .container-alunos {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.alunos {
+    background-color: #07222b57;
+    min-height: 350px;
+    max-width: 350px;
+    min-width: 300px;
+
+    margin: 15px;
+    border: 2px solid var(--paletaCor2);
+    border-radius: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.alunos:hover {
+    border: 2px solid var(--paletaCor3);
+    scale: 103%;
+    box-shadow: 1px 3px 6px 1px #ffffff73;
+}
+
+.alunos img {
+    height: 315px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.alunos h4 {
+    color: var(--paletaCor3);
+    text-align: center;
+
+    min-width: 100%;
+    
+    padding: 5px;
+}
+
+.alunos > h4 {
+    display: none;
+}
+
+.descricao {
+    background-color: white;
+    color: var(--paletaCor1);
+    font-size: 0.6em;
+    width: 100%;
+    margin-top: -200px;
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.alunos:hover .alunos > .descricao > h4 {
+    color: #88bad5;
+}
+
+.alunos:hover > h4 {
+    display: none;
+}
+
+.alunos:hover {
+
+}
 
 
 
@@ -330,6 +447,9 @@ h2 {
 
 
 
+main > .sepacao {
+    margin-top: 100px;
+}
 
 
 
@@ -426,64 +546,3 @@ footer p a {
 
 
 
-/*.container-cards {
-    height: 400px;
-    display: flex;
-    justify-content: space-between;
-    overflow-y: auto;
-}
-
-.container-cards::-webkit-scrollbar {
-    background-color: #00000090;
-    position: relative;
-    top: 0px;
-    max-width: 100px;
-    height: 5px;
-}
-
-.container-cards::-webkit-scrollbar-thumb {
-    background-color: var(--cor-destaque);
-    height: 10px;
-}*/
-
-/* .container-cards {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.cards {
-    background-color: #07222b57;
-    min-height: 350px;
-    max-width: 440px;
-    min-width: 440px;
-
-    margin: 15px;
-    padding: 15px;
-    border: 2px solid var(--paletaCor2);
-    border-radius: 10px;
-
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.cards:hover {
-    border: 2px solid var(--paletaCor3);
-    scale: 103%;
-    box-shadow: 1px 3px 6px 1px #ffffff73;
-}
-
-.cards h4 {
-    color: var(--paletaCor3);
-
-    min-width: 100%;
-    margin-bottom: 15px;
-    padding-bottom: 5px;
-    border-bottom: 2px solid var(--paletaCor2);
-}
-
-.cards:hover h4 {
-    color: #88bad5;
-    border-bottom: 2px solid #88bad5;
-} */
