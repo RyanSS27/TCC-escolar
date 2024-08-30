@@ -248,13 +248,15 @@ h2 {
     padding: 50px 25px;
 }
 
-.limite {
-    max-width: 1100px;
-    margin: 0px auto;
-
+.capitulo >.limite {
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+
+.limite {
+    max-width: 1100px;
+    margin: 0px auto;
 }
 
 .cap-fundo1 > .limite > img {
@@ -329,14 +331,16 @@ h2 {
 
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .arte-de-estudar img {
-    max-width: 200px;
+    max-height: 400px;
 }
 
 .textos {
-    max-width: 450px;
+    max-width: 400px;
 }
 
 .arte-de-estudar p {
@@ -355,9 +359,6 @@ h2 {
 
 .container-alunos::-webkit-scrollbar {
     background-color: #00000090;
-    position: relative;
-    top: 0px;
-    max-width: 100px;
     height: 5px;
 }
 
@@ -392,6 +393,10 @@ h2 {
     box-shadow: 1px 3px 6px 1px #ffffff73;
 }
 
+.alunos:hover > .descricao {
+    display: block;
+}
+
 .alunos img {
     height: 315px;
     width: 100%;
@@ -399,38 +404,51 @@ h2 {
 }
 
 .alunos h4 {
-    color: var(--paletaCor3);
+    color: var(--paletaCor5);
     text-align: center;
 
     min-width: 100%;
+    margin-top: -10px;
     
     padding: 5px;
 }
 
-.alunos > h4 {
-    display: none;
-}
-
 .descricao {
-    background-color: white;
-    color: var(--paletaCor1);
+    background-color: #00000089;
+    color: var(--paletaCor5);
     font-size: 0.6em;
     width: 100%;
     margin-top: -200px;
     padding: 10px;
     border-radius: 0px 0px 10px 10px;
+    display: none;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.descricao > p {
+    width: 100%;
+}
+
+.relato {
+    margin-top: 15px;
+}
+
+.descricao > hr {
+    background-color: var(--paletaCor5);
+    height: 1px;
+    width: 200px;
+    margin: 6px auto 0px auto;
 }
 
 .alunos:hover .alunos > .descricao > h4 {
     color: #88bad5;
 }
 
-.alunos:hover > h4 {
-    display: none;
-}
-
-.alunos:hover {
-
+.alunos:hover > .descricao > h4 {
+    color: orange;
+    border: 2px solid var(--paletaCor3);
 }
 
 
