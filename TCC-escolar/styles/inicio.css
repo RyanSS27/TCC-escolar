@@ -32,10 +32,10 @@
     --paletaCor5: #e6ede8;
     --paletaCor6: #fff;
 
-    --cor-textos: #e6ede8;
+    --cor-textos: #030e12;
     --cor-texto-fundo-contraste: #030e12;
 
-    --cor-destaque: #f28f0d;
+    --cor-destaque: #ffb030;
 }
 
 :root {
@@ -44,9 +44,9 @@
 }
 
 body, html {
-    background-color: var(--paletaCor1);
-    color: var(--paletaCor5);
-    font-size: 1.2em;
+    background-color: var(--paletaCor6);
+    color: var(--paletaCor1);
+    font-size: 1.1em;
     font-family: var(--font-padrao);
     width: 100%;
     height: 100%;
@@ -56,7 +56,7 @@ body, html {
 }
 
 h1 {
-    color: var(--cor-textos);
+    color: var(--paletaCor5);
 }
 
 #container-topo-img {
@@ -85,6 +85,7 @@ header {
 }
 
 .logo {
+    color: var(--paletaCor5);
     font-size: 1.8em;
     display: inline;
 }
@@ -108,10 +109,14 @@ nav a:active {
 }
 
 nav a {
-    color: var(--cor-textos);
+    color: var(--paletaCor5);
     text-decoration: none;
     margin: 15px;
     padding: 5px 15px;
+}
+
+nav .cadastro {
+    color: var(--paletaCor5);
 }
 
 nav div {
@@ -121,12 +126,17 @@ nav div {
 }
 
 .cadastro  {
-    color: var(--cor-textos);
+    background-color: var(--cor-destaque);
+    color: var(--paletaCor5);
     font-weight: bold;
     text-decoration: none;
     padding: 10px 15px;
     border-radius: 5px;
     border: 1px solid var(--cor-destaque);
+}
+
+header .cadastro {
+    background-color: #00000000;
 }
 
 .link-cadastro {
@@ -135,8 +145,6 @@ nav div {
 }
 
 .cadastro:hover {
-    background-color: #c58b4464;
-    border: 1px solid #ffffff00;
 
     transition-duration: 0.3s;
     scale: 90%;
@@ -152,7 +160,7 @@ nav > div > a {
 }
 
 .divisao-topo-textos {
-    background-image: linear-gradient(50deg, var(--paletaCor1) 7%, #0000000b), linear-gradient(to top, var(--paletaCor1) 5%, #0000000b);
+    background-color: white;
 
     display: block;
     padding: 250px 50px 50px 50px;
@@ -197,7 +205,7 @@ h1 {
 }
 
 .nossos-servicos {
-    background-color: var(--paletaCor1);
+    background-color: var(--paletaCor6);
     width: 100%;   
     padding: 50px 0px;
 }
@@ -218,7 +226,7 @@ hr {
 }
 
 .inicio-da-jornada p {
-    color: var(--paletaCor5);
+    color: var(--paletaCor1);
 }
 
 .inicio-da-jornada p.rumo-ao-futuro {
@@ -294,7 +302,7 @@ h2 {
 }
 
 .cap-fundo2 {
-    background-color: var(--paletaCor1);
+    background-color: var(--paletaCor6);
 }
 
 .nossos-servicos > a {
@@ -311,7 +319,7 @@ h2 {
 }
 
 .beneficios{
-    background-color: var(--paletaCor1);
+    background-color: var(--paletaCor6);
     
     width: 100%;
 }
@@ -321,8 +329,8 @@ h2 {
 }
 
 .arte-de-estudar {
-    background-color: var(--cor1);
-    color: var(--paletaCor1);
+    background-color: var(--paletaCor2);
+    color: var(--paletaCor5);
     min-height: 400px;
     max-width: 85%;
     margin: 0px auto 100px auto;
@@ -404,7 +412,7 @@ h2 {
 }
 
 .alunos h4 {
-    color: var(--paletaCor5);
+    color: var(--paletaCor1);
     text-align: center;
 
     min-width: 100%;
@@ -436,7 +444,7 @@ h2 {
 }
 
 .descricao > hr {
-    background-color: var(--paletaCor5);
+    background-color: var(--paletaCor1);
     height: 1px;
     width: 200px;
     margin: 6px auto 0px auto;
