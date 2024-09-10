@@ -568,7 +568,38 @@ footer p a {
 
 
 
+.passos {
+    background-image: linear-gradient(45deg, var(--paletaCor1),  #0a2d3a, var(--paletaCor2));
+    color: white;
 
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.caps img {
+    background-color: white;
+    width: 50px;
+    display: block;
+    margin: auto;
+    border-radius: 100px;
+}
+
+.caps p {
+    text-align: center;
+}
+
+.caps h4 {
+    text-align: center;
+    font-size: 1.3em;
+    margin: 25px 0px;
+}
+
+.caps {
+    font-size: 0.8em;
+    max-width: 200px;
+}
 
 
 
