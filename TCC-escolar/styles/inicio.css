@@ -59,10 +59,16 @@ h1 {
     color: var(--paletaCor5);
 }
 
-#container-topo-img {
-    background: var(--cor-destaque) url(../imagens/img-fundo-teste.jpeg) center/ cover no-repeat fixed;
-    min-height: 600px;
-    display: block;
+#container-topo {
+    background-color: var(--cor1);
+    min-height: 450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+#container-topo > img {
+    max-width: 500px;
 }
 
 header {
@@ -163,11 +169,10 @@ nav > div > a {
     background-color: white;
 
     display: block;
-    padding: 250px 50px 50px 50px;
+    padding: 260px 50px 50px 50px;
     min-height: 600px;
-    width: 100%;
+    width: 50%;
     border-radius: 0px 0px 0px 0px;
-    box-shadow: 5px 6px 12px 3px rgba(0, 0, 0, 0.621)
 }
 
 h1 {
@@ -566,16 +571,54 @@ footer p a {
 
 
 
-
-
 .passos {
-    background-image: linear-gradient(45deg, var(--paletaCor1),  #0a2d3a, var(--paletaCor2));
-    color: white;
+    background-color: var(--paletaCor1);
+    padding: 50px 0px 25px 0px;
+    text-align: center;
+}
 
+
+
+.passos > .limite {
+    /* background-image: linear-gradient(45deg, var(--paletaCor1), #0a2d3a, var(--paletaCor2)); */
+    
     padding: 50px 0px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
+}
+
+.passos .cadastro {
+    text-align: center;
+    margin: auto;
+}
+
+.passos > .limite a {
+    color: white;
+    text-decoration: none;
+}
+
+.passos h2, .passos .titulo-destaque{
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.passos h2 {
+    color: var(--cor1);
+    margin-bottom: 15px;
+}
+
+.passos hr {
+    color: var(--paletaCor3);
+    width: 300px;
+    display: block;
+}
+
+.caps {
+    font-size: 0.8em;
+    max-width: 250px;
+    padding: 15px;
 }
 
 .caps img {
@@ -592,14 +635,21 @@ footer p a {
 
 .caps h4 {
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.2em;
     margin: 25px 0px;
 }
 
-.caps {
-    font-size: 0.8em;
-    max-width: 200px;
+.caps:hover {
+    margin-top: -15px;
+    transform: scale(110%);
+    transition-duration: 3ms;
+    box-shadow: 1px 3px 6px 1px #ffffff73;
 }
+
+.caps:hover h4 {
+    color: #69caff;
+}
+
 
 
 
