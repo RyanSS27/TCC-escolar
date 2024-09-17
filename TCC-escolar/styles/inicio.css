@@ -36,6 +36,7 @@
     --cor-texto-fundo-contraste: #030e12;
 
     --cor-destaque: #ffb030;
+    --gradiente: linear-gradient(to right, var(--cor-destaque), var(--paletaCor3));
 }
 
 :root {
@@ -268,14 +269,25 @@ h2 {
     
     padding: 50px 0px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
-.passos > .limite a {
+.passos > .limite .borda {
+    background-image: var(--gradiente);
     color: white;
     text-decoration: none;
+
+    margin-bottom: 25px;
+    padding: 1px;
+    border-radius: 15px;
 }
+
+.passos > .limite > .borda:hover {
+    transform: scale(105%);
+    transition-duration: 0.5s;
+}
+
 
 .passos h2, .passos .titulo-destaque{
     text-align: center;
@@ -295,36 +307,61 @@ h2 {
 }
 
 .caps {
+    background-color: var(--paletaCor1);
     font-size: 0.8em;
-    max-width: 250px;
-    padding: 15px;
+
+    height: 100%;
+    max-width: 450px;
+    border-radius: 15px;
+    padding: 15px 5px;
 }
+
 
 .caps img {
     background-color: white;
     width: 50px;
-    display: block;
-    margin: auto;
+    margin: 0px auto 15px auto;
     border-radius: 100px;
-}
-
-.caps p {
-    text-align: center;
+    display: block;
 }
 
 .caps h4 {
     color: var(--paletaCor5);
     text-align: center;
     font-size: 1.2em;
-    margin: 25px 0px;
 }
 
-.caps:hover {
-    margin-top: -15px;
-    transform: scale(110%);
-    transition-duration: 0.8s;
-    box-shadow: 1px 3px 6px 1px #ffffff73;
+.caps p {
+    text-align: center;
+    margin: 15px 0px;
 }
+
+.caps .ver-mais {
+    background-color: var(--paletaCor1);
+    color: var(--paletaCor3);
+    font-size: 0.9em;
+    text-decoration: none;
+
+    display: block;
+
+    max-width: 100px;
+    margin: auto;
+    padding: 5px;
+    border: 1px solid var(--paletaCor3);
+    border-radius: 50px;
+}
+
+.ver-mais:hover {
+    background-color: #69cbff2b;
+    color: #a8e1ff;
+
+    border: 1px solid var(--paletaCor3);
+    transition: 0.3s;
+    transform: scale(95%);
+}
+
+
+
 
 .caps:hover h4 {
     color: #69caff;
