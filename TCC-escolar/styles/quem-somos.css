@@ -1,0 +1,232 @@
+header {
+    background-color: #000000cc;
+    backdrop-filter: blur(3px);
+    font-size: 0.7em;
+
+    min-height: 125px;
+    width: 100%;
+    padding: 20px 50px;
+    border-top: 5px solid var(--cor-destaque);
+    padding: 20px 100px;
+
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo {
+    color: var(--paletaCor5);
+    font-size: 1.8em;
+    display: inline;
+}
+
+nav {
+    margin: auto;
+    min-height: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav a:hover {
+    border-bottom: 1px solid var(--cor-destaque);
+    transition: 0.5s;
+}
+
+nav a:active {
+    scale: 97%;
+}
+
+nav a {
+    color: var(--paletaCor5);
+    text-decoration: none;
+    margin: 15px;
+    padding: 5px 15px;
+}
+
+nav .cadastro {
+    color: var(--paletaCor5);
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header .cadastro {
+    background-color: #00000000;
+}
+
+nav > div > a {
+    font-weight: bold;
+}
+
+
+main {
+    
+}
+
+.container {
+    background-color: var(--paletaCor1);
+    color: var(--paletaCor6);
+    text-align: left;
+    width: 100%;
+    padding: 150px 0 25px 25px;
+    display: block;
+}
+
+.container h1 {
+    color: white;
+    font-size: 3em;
+}
+
+.o-que-fazemos {
+    background-color: var(--paletaCor1);
+    font-size: 0.9em;
+    color: white;
+
+    width: 100%;
+    max-height: 550px;
+
+    display: flex;
+}
+
+.o-que-fazemos {
+    background-color: var(--paletaCor1);
+}
+
+.o-que-fazemos h1,h2 {
+    color: white
+}
+
+
+.texto {
+    padding: 50px 25px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+
+.image {
+    width: 60%;
+    position: relative;
+    overflow: hidden;
+}
+
+.image::before {
+    content: '';
+    position: absolute;
+    left: -8em;
+    top: 50%;
+    transform: translateY(-50%) rotate(20deg);
+    background-color: var(--paletaCor1);
+    width: 40%;
+    height: 140%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+}
+
+.fundadores h2 {
+    color: var(--cor-textos);
+}
+
+
+
+
+
+
+
+
+.separacao {
+    text-align: center;
+    margin: 0px auto 100px auto;
+    width: 900px;
+}
+
+footer {
+    background-color: var(--cor1);
+    color: var(--paletaCor1);
+    font-size: 0.7em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 20px;
+}
+
+footer div {
+    min-width: 100px;
+    max-width: 250px;
+    margin: 20px 5vw;
+}
+
+.redes {
+    display: flex;
+}
+
+.logo-footer {
+    max-width: 150px;
+}
+
+footer img,
+footer .titulo {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 2.4rem;
+}
+
+.icons {
+    margin: 0px 5px;
+    max-height: 20px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.icons:hover {
+    scale: 110%;
+}
+
+footer nav a {
+    color: var(--paletaCor1);
+    display: block;
+    margin-bottom: 1.6rem;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--paletaCor4);
+    text-decoration: underline;
+}
+
+footer p {
+    margin-bottom: 1.6rem;
+    max-width: 35.0rem;
+}
+
+footer p a {
+    color: var(--paletaCor1);
+    text-decoration: none;
+}
+
+#copyright {
+    background-color: var(--paletaCor1);
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 0.8em;
+
+    width: 90vw;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+#copyright a {
+    color: var(--cor-destaque);
+}
