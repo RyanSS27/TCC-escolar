@@ -67,32 +67,22 @@ nav > div > a {
     font-weight: bold;
 }
 
-
-main {
-    
-}
-
 .container {
     background-color: var(--paletaCor1);
     color: var(--paletaCor6);
     text-align: left;
+    height: 180px;
     width: 100%;
-    padding: 150px 0 25px 25px;
     display: block;
-}
-
-.container h1 {
-    color: white;
-    font-size: 3em;
 }
 
 .o-que-fazemos {
     background-color: var(--paletaCor1);
     font-size: 0.9em;
-    color: white;
+    color: var(--cor-textos-fundo-contraste);
 
     width: 100%;
-    max-height: 550px;
+    max-height: 500px;
 
     display: flex;
 }
@@ -101,20 +91,37 @@ main {
     background-color: var(--paletaCor1);
 }
 
-.o-que-fazemos h1,h2 {
-    color: white
+.o-que-fazemos h1 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
 }
 
+.o-que-fazemos h1, h2 {
+    color: var(--cor-textos-fundo-contraste);
+}
+
+.sobre-nos {
+    width: 100%;
+}
+
+.sobre-nos hr {
+    border: 1px solid var(--paletaCor3);
+    max-width: 200px;
+}
 
 .texto {
-    padding: 50px 25px;
+    padding: 0px 25px;
     width: 40%;
+    min-width: 500px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: flex-start;
 }
 
+.p-o-que-fazemos {
+    margin: 25px 0 50px 0;
+}
 
 .image {
     width: 60%;
@@ -134,14 +141,54 @@ main {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
 }
 
-.fundadores h2 {
-    color: var(--cor-textos);
+.fundadores {
+    padding: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
+.fundadores h2 {
+    color: var(--cor-textos);
+    text-align: center;
 
+    width: 100%;
+    margin-bottom: 25px;
+    display: block;
+}
 
+.fundador {
+    background-color: var(--paletaCor5);
+    height: 100%;
+    max-width: 350px;
+    min-width: 300px;
+    margin: 25px;
+    padding: 10px 15px 15px 15px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 9px #9ed4f18d;
+}
 
+.fundador img {
+    background-color: var(--paletaCor1);
+    width: 100px;
+    height: 100px;
+    border-radius: 70px;
+    margin: -30px 10px;
+    display: inline;
+}
 
+.fundador p {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.cargos {
+    display: flex;
+}
+
+.nossa-historia {
+    color: var(--cor-textos);
+}
 
 
 
