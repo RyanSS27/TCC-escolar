@@ -67,9 +67,12 @@ nav > div > a {
     font-weight: bold;
 }
 
+main {
+    font-size: 0.9em;
+}
+
 .container {
     background-color: var(--paletaCor1);
-    color: var(--paletaCor6);
     text-align: left;
     height: 180px;
     width: 100%;
@@ -78,7 +81,6 @@ nav > div > a {
 
 .o-que-fazemos {
     background-color: var(--paletaCor1);
-    font-size: 0.9em;
     color: var(--cor-textos-fundo-contraste);
 
     width: 100%;
@@ -186,11 +188,74 @@ nav > div > a {
     display: flex;
 }
 
-.nossa-historia {
+.nossa-historia, .nossa-historia h2 {
     color: var(--cor-textos);
 }
 
+.nossa-historia {
+    background-color: var(--paletaCor5);
+}
 
+.nossa-historia > .limite {
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.nossa-historia h2 {
+    width: 100%;
+    margin-bottom: 25px;
+    font-size: 2em;
+}
+
+.textos-metade {
+    max-width: 600px;
+}
+
+
+.textos-metade p {
+    margin: 15px 0px;
+}
+
+.p-destaque {
+    width: 100%;
+    font-size: 1.1em;
+}
+
+.nossa-historia hr {
+    margin: 25px 0px;
+    border: 1px solid var(--paletaCor3);
+    max-width: 200px;
+}
+
+
+.imagem-metade {
+    width: 500px;
+}
+
+.texto-destaque {
+    font-weight: bolder;
+}
+
+.nossa-missao-valores h2 {
+    text-align: center;
+    color: var(--cor-textos);
+}
+
+.container-pilares {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.valores {
+    padding: 15px;
+    width: 250px;
+    height: 150px;
+    border: 1px solid var(--cor-destaque);
+    border-radius: 15px
+}
 
 .separacao {
     text-align: center;
