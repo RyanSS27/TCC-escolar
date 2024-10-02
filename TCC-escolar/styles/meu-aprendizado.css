@@ -52,20 +52,13 @@ h2 {
     display: none;
 }
 
-.capitulos:hover .arrow-down {
-    transform: rotate(180deg);
-    transition: 0.5s;
+.arrow-down {
+    
 } 
-
-.capitulos:hover .inferior-cap {
-    transition-delay: 0.1s;
-    display: block;
-}
 
 .arrow-down {
     max-width: 30px;
 }
-
 
 .seu-progresso {
     width: 100%;
