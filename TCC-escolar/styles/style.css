@@ -125,6 +125,14 @@ nav > div > a {
     font-weight: bold;
 }
 
+.bloco-topo {
+    background-color: var(--paletaCor1);
+    text-align: left;
+    height: 180px;
+    width: 100%;
+    display: block;
+}
+
 
 .limite {
     max-width: 1200px;
@@ -232,7 +240,7 @@ footer nav a {
 }
 
 footer a:hover {
-    color: var(--paletaCor4);
+    color: var(--cor-destaque);
     text-decoration: underline;
 }
 
@@ -250,11 +258,11 @@ footer p a {
     background-color: var(--paletaCor1);
     color: #FFFFFF;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 1em;
 
-    width: 90vw;
+    min-width: 90vw;
     padding: 20px;
-    margin: 20px auto;
+    margin: 20px auto 0px auto;
     border-radius: 10px;
 }
 
