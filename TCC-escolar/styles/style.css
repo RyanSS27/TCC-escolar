@@ -90,6 +90,10 @@ nav {
     flex-wrap: wrap;
 }
 
+a {
+    text-decoration: none;
+}
+
 nav a:hover {
     border-bottom: 1px solid var(--cor-destaque);
     transition: 0.5s;

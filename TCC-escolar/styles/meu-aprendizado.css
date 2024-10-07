@@ -20,16 +20,15 @@ h2 {
 }
 
 .borda {
-    background-image: var(--gradiente);
     color: white;
     text-decoration: none;
 
     margin-bottom: 25px;
-    padding: 1px;
+    padding: 5px;
     border-radius: 15px;
 }
 
-.borda:hover {
+.borda: {
     transform: scale(103%);
     transition: 0.3s;
 }
@@ -37,8 +36,40 @@ h2 {
 
 .capitulos {
     background-color: var(--paletaCor1);
+    font-size: 0.9em;
     border-radius: 15px;
     padding: 15px 20px;
+    width: 50%;
+}
+
+
+.cap1 {
+    background: aqua url(../imagens/meu-aprendizado/organizacao.jpg) top center/ 100% no-repeat;
+}
+
+.cap2 {
+    background: aqua url(../imagens/meu-aprendizado/desanimo.jpg) top center/ cover no-repeat;
+}
+
+.cap3 {
+    background: aqua url(../imagens/meu-aprendizado/sono.jpg) top center/ cover no-repeat;
+}
+
+.cap4 {
+    background: aqua url(../imagens/meu-aprendizado/revisao.jpg) top center/ cover no-repeat;
+}
+
+.container-capitulos-direita {
+    display: flex;
+    justify-content: right;
+}
+
+.container-capitulos-direita h2, p {
+    text-align: right;
+}
+
+.container-capitulos-direita .container-start {
+    justify-content: left;
 }
 
 .superior-cap {
@@ -53,11 +84,33 @@ h2 {
 }
 
 .arrow-down {
-    
-} 
-
-.arrow-down {
     max-width: 30px;
+}
+
+.container-start {
+    display: flex;
+    justify-content: right;
+}
+
+.start {
+    background-color: #3299d05b;
+    color: var(--cor1);
+    font-size: small;
+    text-align: center;
+    text-decoration: none;
+    
+    width: 100px;
+    
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 1px solid var(--paletaCor3);
+    border-radius: 70px;
+    border: 1px solid var(--paletaCor3);
+}
+
+.start:hover {
+    background-color: var(--paletaCor3);
+    transition: 0.3s;
 }
 
 .seu-progresso {
