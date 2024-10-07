@@ -28,10 +28,10 @@ h2 {
     border-radius: 15px;
 }
 
-.borda: {
+/* .borda {
     transform: scale(103%);
     transition: 0.3s;
-}
+} */
 
 
 .capitulos {
@@ -42,9 +42,47 @@ h2 {
     width: 50%;
 }
 
+/* .div-broxa-coloridinha-do-gay-daniel {
+    background-color: var(--paletaCor3);
+    width: 100%;
+    border-radius: 15px;
+}
+
+.cap1 .capitulos {
+    margin-top: px;
+} */
+
 
 .cap1 {
     background: aqua url(../imagens/meu-aprendizado/organizacao.jpg) top center/ 100% no-repeat;
+}
+
+.cap1 .superior-cap  {
+    border: 2px solid var(--paletaCor3);
+    margin: -15px -20px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.cap2 .superior-cap  {
+    border: 2px solid var(--paletaCor3);
+    margin: -15px -20px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.cap3 .superior-cap  {
+    border: 2px solid var(--paletaCor3);
+    margin: -15px -20px;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.cap4 .superior-cap  {
+    border: 2px solid var(--paletaCor3);
+    margin: -15px -20px;
+    padding: 15px;
+    border-radius: 15px;
 }
 
 .cap2 {
@@ -64,7 +102,7 @@ h2 {
     justify-content: right;
 }
 
-.container-capitulos-direita h2, p {
+.container-capitulos-direita {
     text-align: right;
 }
 

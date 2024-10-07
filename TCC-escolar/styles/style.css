@@ -90,10 +90,6 @@ nav {
     flex-wrap: wrap;
 }
 
-a {
-    text-decoration: none;
-}
-
 nav a:hover {
     border-bottom: 1px solid var(--cor-destaque);
     transition: 0.5s;
@@ -103,9 +99,12 @@ nav a:active {
     scale: 97%;
 }
 
+a {
+    text-decoration: none;
+}
+
 nav a {
     color: var(--paletaCor5);
-    text-decoration: none;
     margin: 15px;
     padding: 5px 15px;
 }

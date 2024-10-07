@@ -15,3 +15,11 @@ function clicou(cap, n) {
     }
 }
 
+
+// function teste() {
+//     var cap_tamanho = document.getElementsByClassName('capitulos')[0]
+//     var valor = Number(cap_tamanho.style.height)
+//     var div_ajustada = document.querySelector('div.div-broxa-coloridinha-do-gay-daniel')
+//     div_ajustada.style.minHeight = `${valor}px`
+// }
+
