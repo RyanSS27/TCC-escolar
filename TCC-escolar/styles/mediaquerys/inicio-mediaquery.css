@@ -2,7 +2,13 @@
 
 /* CELULARES */
 @media screen and (max-width:600px) {
-    
+    .container-topo {
+        flex-wrap: wrap;
+    }
+
+    .divisao-topo-textos {
+        width: 100%;
+    }
 }
 
 /* CELULARES GRANDES E TABLETS */

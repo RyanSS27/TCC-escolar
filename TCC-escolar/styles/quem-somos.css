@@ -212,16 +212,16 @@ main {
 }
 
 .inicie-sua-jornada {
-    background: var(--paletaCor6) url(../imagens/quem-somos/teste.jpeg) 100%/ cover fixed;
+    background: var(--paletaCor6) url(../imagens/quem-somos/seu-aprendizado.jpeg) 100%/ cover fixed;
     color: var(--paletaCor5);
+    text-align: center;
     margin: 100px 0px;
-    padding: 100px 15px;
+    padding: 75px 15px;
 }
 
 .inicie-sua-jornada h2 {
     color: var(--cor-textos-fundo-contraste);
     text-align: center;
-    margin-bottom: 25px;
 }
 
 .inicie-sua-jornada .limite {
@@ -230,4 +230,5 @@ main {
 
 .inicie-sua-jornada p {
     text-align: center;
+    margin: 25px 0px;
 }

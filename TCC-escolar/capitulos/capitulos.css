@@ -1,0 +1,133 @@
+@charset "UTF-8";
+
+main {
+    max-width: 850px;
+    margin: auto;
+    padding: 180px 20px 20px 20px;
+}
+
+h1 {
+    color: #3e4953;
+    font-size: 2.5em;
+}
+
+aside {
+    color: #6b7885;
+    font-size: 1em;
+    margin: 20px 0px;
+
+}
+
+hr {
+    color: #3e4953;
+}
+
+aside>span {
+    display: inline-block;
+    padding: 0px 10px;
+    margin: 0px 5px;
+    border-right: 2px solid #545454;
+    border-left: 2px solid #545454;
+}
+
+main p {
+    text-align: justify;
+    font-size: 1.1em;
+    text-indent: 30px;
+    margin: 20px 0px;
+}
+
+.mark {
+    color: orange;
+    font-weight: bold;
+}
+
+h2 {
+    color: #3e4953;
+    font-size: 2em;
+}
+
+.imagem-conteudo {
+    background: #F9F5F3 url(imagens/imagem-programacao.jpg) center center/ cover no-repeat fixed;
+    height: 300px;
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: inset 0px 3px 6px 0px #000000db;
+}
+
+.texto-imagem {
+    width: 100%;
+    margin: 20px;
+    display: flex;
+}
+
+.texto-imagem>.texto-metade,
+.img-metade {
+    width: 50%;
+    display: block;
+}
+
+.img-direita {
+    background: aqua url(imagens/programador-teste.jpg) center center/ cover no-repeat;
+
+    border-radius: 0px 15px 15px 0px;
+    box-shadow: inset 0px 3px 6px 0px #000000db;
+
+    margin-left: 20px;
+}
+
+.img-esquerda {
+    background: aqua url(imagens/programador-teste.jpg) center center/ cover no-repeat;
+
+    border-radius: 15px 0px 0px 15px;
+    box-shadow: inset 0px 3px 6px 0px #000000db;
+
+    margin-right: 20px;
+}
+
+
+.caps-nav {
+    background-color: var(--paletaCor1);
+    color: var(--cor-textos-fundo-contraste);
+    font-size: 0.9em;
+    text-align: center;
+
+    max-width: 350px;
+    height: 50px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 100px;   
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caps-nav a {
+    
+    color: var(--paletaCor5);
+    width: 100px;
+}
+
+.select-paginas {
+    background-color: var(--paletaCor1);
+    color: var(--cor-textos-fundo-contraste);
+    text-align: center;
+    min-width: 50px;
+    margin: 0px 15px;
+    padding: 5px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.caps-nav img {
+    display: inline;
+    max-width: 15px;
+    margin: 0px 5px;
+}
+
+
+.pagina {
+    display: none;
+}
