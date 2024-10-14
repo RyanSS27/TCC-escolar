@@ -2,12 +2,55 @@
 
 /* CELULARES */
 @media screen and (max-width:600px) {
-    .container-topo {
-        flex-wrap: wrap;
+    #container-topo {
+        display: block;
     }
 
     .divisao-topo-textos {
         width: 100%;
+        padding: 250px 15px 25px 15px;
+    }
+
+    .divisao-topo-textos > div {
+        text-align: center;
+    }
+    .passos > .limite {
+        
+    }
+
+    .caps {
+        max-width: 300px;
+    }
+
+    .beneficios-fundo1 .limite > .conteudo {
+        margin-top: 25px;
+    }
+
+    .beneficios-fundo2 .limite > .conteudo {
+        margin-bottom: 25px;
+    }
+
+    .beneficios > .limite > .conteudo {
+        text-align: center;
+        width: 100%;
+    }
+
+    .arte-de-estudar {
+        text-align: center;
+        border-radius: 0px;
+    }
+
+    footer {
+        display: block;
+    }
+
+    footer div {
+        max-width: none;
+        margin: 50px 0px;
+    }
+
+    .logo-footer {
+        margin: 0px auto 25px auto;
     }
 }
 

@@ -58,6 +58,7 @@ hr.separacao-topo {
 .inicio-da-jornada {
     max-width: 1100px;
     margin: auto;
+    padding: 15px;
 }
 
 .inicio-da-jornada > h1 {
@@ -201,7 +202,6 @@ hr.separacao-topo {
 
 .container-beneficios {
     background-color: var(--paletaCor5);
-    box-shadow: inset 1px 1px 1px black;
     padding-bottom: 50px;
 }
 
@@ -214,6 +214,7 @@ hr.separacao-topo {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .beneficios-fundo1 > .limite > img {
