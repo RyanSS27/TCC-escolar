@@ -8,8 +8,6 @@ var bloco = document.querySelector('div.bloco-topo')
 bloco.addEventListener(onload, verifica())
 
 function verifica() {
-    bloco.style.backgroundColor = 'blue'
-    bloco.innerHTML = `${cap_interesse}`
     cap_interesse != null? abre_fecha(cap_interesse).cap_interesse = null: false 
 }
 
@@ -18,16 +16,21 @@ function abre_fecha(cap, n) {
     var part_inferior = document.getElementsByClassName('capitulos')[cap].querySelector('div.inferior-cap')
     var parte_superior = document.getElementsByClassName('capitulos')[cap].querySelector('div.superior-cap')
     var seta = parte_superior.querySelector('img.arrow-down')
+    var seta2 = document.getElementsByClassName('capitulos')[cap].querySelector('img.arrow2')
 
 
     if (part_inferior.style.display == 'block') {
         part_inferior.style.display = 'none'
         seta.style.transform = 'rotate(0deg)'
         seta.style.transition = '0.5s'
+        seta2.style.transform = 'rotate(0deg)'
+        seta2.style.transition = '0.5s'
     } else {
         part_inferior.style.display = 'block'
         seta.style.transform = 'rotate(180deg)'
         seta.style.transition = '0.5s'
+        seta2.style.transform = 'rotate(180deg)'
+        seta2.style.transition = '0.5s'
     }
 }
 

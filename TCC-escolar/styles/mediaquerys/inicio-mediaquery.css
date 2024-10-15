@@ -1,20 +1,30 @@
 @charset "UTF-8";
 
 /* CELULARES */
-@media screen and (max-width:600px) {
+@media screen and (max-width:768px) {
     #container-topo {
         display: block;
         padding: 0px 15px;
     }
 
     #container-topo img {
+        max-width: none;
         width: 100%;
         margin: auto;
     }
 
     .divisao-topo-textos {
+        display: block;
+        margin: auto;
         width: 100%;
+        min-width: none;
         padding: 250px 0px 25px 0px;
+    }
+
+    .divisao-topo-textos h1, h2 {
+        text-align: center;
+        margin: auto;
+        min-width: none;
     }
 
     .divisao-topo-textos > div {
@@ -59,7 +69,9 @@
         border: none;
     }
 
+
     .arte-de-estudar {
+        margin: 100px -25px 100px -25px;
         text-align: center;
         border-radius: 0px;
     }
@@ -67,36 +79,74 @@
     .arte-de-estudar img {
         width: 100%;
     }
-
-    footer {
-        display: block;
-    }
-
-    footer div {
-        max-width: none;
-        margin: 50px 0px;
-    }
-
-    .logo-footer {
-        margin: 0px auto 25px auto;
-    }
-
-    .redes {
-        text-align: center;
-        display: block;
-        width: 100%;
-    }
-
-    .redes strong {
-        text-align: center;
-        display: block;
-        width: 100%;
-    }
 }
 
 /* CELULARES GRANDES E TABLETS */
 @media screen and (min-width: 768px) {
+}
 
+
+/* AJUSTA IMAGEM CABEÇALHO E OS CARDS PASSO A PASSO*/
+
+@media screen and (max-width: 964px) {
+    #container-topo {
+        flex-wrap: wrap;
+    }
+
+    .divisao-topo-imagem, .divisao-topo-textos {
+        display: block;
+        width: 100%;
+    }
+
+    .divisao-topo-textos {
+        display: block;
+        margin: auto;
+        max-width: 600px;
+        padding: 250px 0px 25px 0px;
+    }
+
+    .divisao-topo-textos h1, h2 {
+        text-align: center;
+        margin: auto;
+    }
+
+    .divisao-topo-textos > div {
+        text-align: center;
+    }
+
+    .divide-caps {
+        display: block;
+        width: 100%;
+    }
+
+    .borda {
+        margin: 15px;
+    }
+
+    .caps {
+        max-width: 350px;
+    }
+
+    .beneficios-fundo1 .limite > .conteudo {
+        margin-top: 25px;
+    }
+
+    .beneficios-fundo2 .limite > .conteudo {
+        margin-bottom: 25px;
+    }
+
+    .container-beneficios hr {
+        display: block;
+    }
+
+    .nossa-missao {
+        padding: 0px 25px 0px 25px;
+    }
+
+    .arte-de-estudar img {
+        max-width: 350px;
+        margin: 15px;
+    }
 }
 
 /* COMPUTADORES */
@@ -104,12 +154,16 @@
 
 }
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 1150px) {
     h1.logo {
         margin: auto;
     }
     nav {
         width: 100%;
+    }
+
+    .container-beneficios hr {
+        display: block;
     }
 }
 

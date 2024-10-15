@@ -5,6 +5,8 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="styles/style.css">
             <link rel="stylesheet" href="styles/meu-aprendizado.css">
+            <link rel="stylesheet" href="styles/mediaquerys/meu-aprendizado-mediaquery.css">
+            <link rel="stylesheet" href="styles/mediaquerys/footer-rodape-mediaquery.css">
             <title>Meu aprendizado</title>
         </head>
         <body>
@@ -38,9 +40,10 @@
                         <div class="capitulos">
                             <div class="superior-cap"  onclick="abre_fecha(0, 1)">
                                 <h3>Organize o seu estudo</h3>
-                                <img src="icons/icon-arrow-down.png" alt="abrir descrição do capítulo" class="arrow-down">
+                                <img src="icons/icon-arrow-down.png" alt="abrir descrição do capítulo" class="arrow-down arrow1">
                             </div>
                             <div class="inferior-cap">
+                                <img src="imagens/meu-aprendizado/organizacao.jpg" alt="imagem ilustrativa sobre organização" class="imagens-ilustrativas">
                                 <p>A chave para um estudo eficaz é a organização. Aprenda recursos que ajudam você a estruturar seu plano de estudos, distribuir o conteúdo de maneira equilibrada e definir metas realistas. Crie um cronograma personalizado, gerenciar tarefas e acompanhar seu progresso, garantindo que nada fique de fora.</p>
                                 <div class="container-start">
                                     <a href="capitulos/capitulo1/pagina1.html">
@@ -55,15 +58,17 @@
                                     </div>
                                 </div>
                             </div>
+                            <img src="icons/icon-arrow-down.png" alt="abrir descrição do capítulo" class="arrow-down arrow2" onclick="abre_fecha(0, 1)">
                         </div>
                     </div>
                     <div class="borda container-capitulos-direita cap2" id="cap2">
                         <div class="capitulos">
                             <div class="superior-cap" onclick="abre_fecha(1, 1)">
                                 <h3>Lide com a falta de foco, desânimo e motivação</h3>
-                                <img src="icons/icon-arrow-down.png" alt="abrir descrição do capítulo" class="arrow-down">
+                                <img src="icons/icon-arrow-down.png" alt="abrir descrição do capítulo" class="arrow-down arrow1">
                             </div>
                             <div class="inferior-cap">
+                                <img src="imagens/meu-aprendizado/desanimo.jpg" alt="imagem ilustrativa sobre desânimo" class="imagens-ilustrativas">
                                 <p>Para esse que um dos principais obstáculos, disponibilizamos uma série de dicas e estratégias práticas para manter a motivação em alta, combater o desânimo e melhorar sua concentração. Aprenda a identificar os fatores que influenciam seu desempenho e descubra como transformá-los a seu favor.</p>
                                 <div class="container-start">
                                     <a href="#">
@@ -78,15 +83,17 @@
                                     </div>
                                 </div>
                             </div>
+                            <img src="icons/icon-arrow-down.png" alt="abrir descrição do capítulo" class="arrow-down arrow2" onclick="abre_fecha(1, 1)">
                         </div>
                     </div>
                     <div class="borda cap3" id="cap3">
                         <div class="capitulos">
                             <div class="superior-cap" onclick="abre_fecha(2, 1)">
                                 <h3>Importância do Sono e do Ócio</h3>
-                                <img src="icons/icon-arrow-down.png" alt="abrir descrição do capítulo" class="arrow-down">
+                                <img src="icons/icon-arrow-down.png" alt="abrir descrição do capítulo" class="arrow-down arrow1">
                             </div>
                             <div class="inferior-cap">
+                                <img src="imagens/meu-aprendizado/sono.jpg" alt="imagem ilustrativa sobre sono" class="imagens-ilustrativas">
                                 <p>O sono de qualidade e momentos de descanso são fundamentais para o sucesso nos estudos. Descubra como o sono e do ócio contribuem para a assimilação do conteúdo e com a sua saúde mental na rotina de aprendizado. Compreenda como um bom descanso pode potencializar sua capacidade de retenção e clareza mental.</p>
                                 <div class="container-start">
                                     <a href="#">
@@ -101,15 +108,17 @@
                                     </div>
                                 </div>
                             </div>
+                            <img src="icons/icon-arrow-down.png" alt="abrir descrição do capítulo" class="arrow-down arrow2" onclick="abre_fecha(2, 1)">
                         </div>
                     </div>
                     <div class="borda container-capitulos-direita cap4" id="cap4">
                         <div class="capitulos">
                             <div class="superior-cap"  onclick="abre_fecha(3, 1)">
                                 <h3>Revisão de Conteúdos e Utilizar o Estado Difuso</h3>
-                                <img src="icons/icon-arrow-down.png" alt="abrir descrição do capítulo" class="arrow-down">
+                                <img src="icons/icon-arrow-down.png" alt="abrir descrição do capítulo" class="arrow-down arrow1">
                             </div>
                             <div class="inferior-cap">
+                                <img src="imagens/meu-aprendizado/revisao.jpg" alt="imagem ilustrativa sobre revisão" class="imagens-ilustrativas">
                                 <p>Bote em prática métodos de revisão que ajudam você a reter as informações mais importantes e a identificar pontos que precisam de mais atenção. Além disso, exploramos a utilização do "estado difuso", um conceito que envolve dar espaço ao cérebro para processar as informações de forma subconsciente, permitindo insights e compreensão mais profundos.</p>
                                 <div class="container-start">
                                     <a href="#">
@@ -124,6 +133,7 @@
                                     </div>
                                 </div>
                             </div>
+                            <img src="icons/icon-arrow-down.png" alt="abrir descrição do capítulo" class="arrow-down arrow2"  onclick="abre_fecha(3, 1)">
                         </div>
                     </div>
                 </div>
@@ -132,19 +142,18 @@
 
             <footer class="footer-tema-escuro">
                 <hr class="separacao">
-                <div>
+                <div class="rodape-estudo-expresso">
                     <img src="imagens/logo-fundo-claro.jpeg" alt="Informa Dev" class="logo-footer">
                     <p>Tudo de estudo para você. Pegue o seu café a vamos conversar, de aluno para aluno!</p>
-
-                    <span class="redes">
-                        <strong>Nossas redes:</strong>
-                        <a href="https://www.facebook.com/ryan.souzasilva.948" target="_blank"><img src="icons/facebook.png"
-                                alt="facebook" class="icons"></a>
-                        <a href="https://www.instagram.com/ryanss_arts/" target="_blank"><img src="icons/instagram.png"
-                                alt="instagram" class="icons"></a>
-                        <a href="https://github.com/ryanss27" target="_blank"><img src="icons/github.png" alt="github"
-                                class="icons"></a>
+        
+                    <span>
+                        <strong>Nossas redes</strong>
                     </span>
+                    <div>
+                        <a href="https://www.facebook.com/ryan.souzasilva.948" target="_blank"><img src="icons/facebook.png" alt="facebook" class="icons"></a>
+                        <a href="https://www.instagram.com/estudo__expresso/" target="_blank"><img src="icons/instagram.png" alt="instagram" class="icons"></a>
+                        <a href="https://github.com/ryanss27" target="_blank"><img src="icons/github.png" alt="github" class="icons"></a>
+                    </div>
                 </div>
 
                 <div>

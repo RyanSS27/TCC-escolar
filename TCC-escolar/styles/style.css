@@ -224,18 +224,19 @@ footer.footer-tema-escuro #copyright {
     box-shadow: 0px 1px 5px #ffffff;
 }
 
+.rodape-estudo-expresso {
+    text-align: center;
+}
+
 footer div {
     min-width: 100px;
     max-width: 250px;
     margin: 20px 5vw;
 }
 
-.redes {
-    display: flex;
-}
-
 .logo-footer {
     max-width: 150px;
+    margin: 0px auto 25px auto;
 }
 
 footer img,
