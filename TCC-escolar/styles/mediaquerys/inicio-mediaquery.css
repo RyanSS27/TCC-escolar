@@ -4,22 +4,32 @@
 @media screen and (max-width:600px) {
     #container-topo {
         display: block;
+        padding: 0px 15px;
+    }
+
+    #container-topo img {
+        margin: auto;
     }
 
     .divisao-topo-textos {
         width: 100%;
-        padding: 250px 15px 25px 15px;
+        padding: 250px 0px 25px 0px;
     }
 
     .divisao-topo-textos > div {
         text-align: center;
     }
-    .passos > .limite {
-        
-    }
 
     .caps {
         max-width: 300px;
+    }
+
+    .container-beneficios hr {
+        display: block;
+    }
+
+    .beneficios >.limite {
+        padding: 0px 15px;
     }
 
     .beneficios-fundo1 .limite > .conteudo {
@@ -33,6 +43,12 @@
     .beneficios > .limite > .conteudo {
         text-align: center;
         width: 100%;
+    }
+
+    .beneficios > .limite > img {
+        width: 100%;
+        margin: auto;
+        border: none;
     }
 
     .arte-de-estudar {
