@@ -51,7 +51,7 @@ function trocaPag(avancarOUvoltar) {
         testes.innerHTML += lendo
         trocaSelect()
     } else if (avancarOUvoltar == 0) {
-        lendo = select.value
+        lendo = Number(select.value)
         testes.innerHTML += lendo
     }
     for (c = 0; c<contPag; c++) {

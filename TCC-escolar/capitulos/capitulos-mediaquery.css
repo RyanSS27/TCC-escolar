@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+/* CELULARES */
+@media screen and (max-width:768px) {
+    section {
+        padding: 0px 15px;
+    }
+
+    .imagem-conteudo {
+        min-width: 100%;
+        margin: 0px -15px 0px -15px;
+        border-radius: 0px;
+    }
+
+    .texto-imagem {
+        display: block;
+    }
+
+    .texto-metade {
+        max-width: none;
+        width: 100%;
+    }
+
+
+    .img-metade {
+        max-width: 100%;
+        margin: auto;
+        
+        border-radius: 0px;
+    }
+    
+}
+
+@media screen and (min-width:768px) {
+    .texto-imagem>.texto-metade, .img-metade {
+        width: 50%;
+    }
+}
+
+/* CELULARES GRANDES E TABLETS */
+@media screen and (max-width: 964px) {
+    body,html {
+        font-size: 1em;
+    }
+}
+
+
+/* AJUSTA IMAGEM CABEÇALHO E OS CARDS PASSO A PASSO*/
+@media screen and (max-width: 1200px) {
+    
+}
+
+/* COMPUTADORES */
+@media screen and (min-width: 1200px) {
+   
+}
