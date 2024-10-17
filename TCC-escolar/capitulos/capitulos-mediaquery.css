@@ -2,13 +2,13 @@
 
 /* CELULARES */
 @media screen and (max-width:768px) {
-    section {
-        padding: 0px 15px;
+    section h1 {
+        font-size: 2em;
     }
 
     .imagem-conteudo {
         min-width: 100%;
-        margin: 0px -15px 0px -15px;
+        margin: 0px;
         border-radius: 0px;
     }
 
@@ -24,8 +24,8 @@
 
     .img-metade {
         max-width: 100%;
-        margin: auto;
-        
+        margin: 25px auto;
+        box-shadow: 0px 3px 9px 2px #00000032;
         border-radius: 0px;
     }
     
@@ -41,6 +41,9 @@
 @media screen and (max-width: 964px) {
     body,html {
         font-size: 1em;
+    }
+    section {
+        padding: 0px 15px;
     }
 }
 
