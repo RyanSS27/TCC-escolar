@@ -6,6 +6,14 @@
         font-size: 2em;
     }
 
+    aside>span {
+        display: block;
+        border:none;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+
     .imagem-conteudo {
         min-width: 100%;
         margin: 0px;
@@ -31,6 +39,8 @@
     
 }
 
+/* AJUSTE DA IMAGEM METADE */
+
 @media screen and (min-width:768px) {
     .texto-imagem>.texto-metade, .img-metade {
         width: 50%;
@@ -45,12 +55,6 @@
     section {
         padding: 0px 15px;
     }
-}
-
-
-/* AJUSTA IMAGEM CABEÇALHO E OS CARDS PASSO A PASSO*/
-@media screen and (max-width: 1200px) {
-    
 }
 
 /* COMPUTADORES */

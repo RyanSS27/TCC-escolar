@@ -115,6 +115,7 @@ main {
 
 .nossa-historia {
     background-color: var(--paletaCor5);
+    padding: 15px;
 }
 
 .nossa-historia > .limite {

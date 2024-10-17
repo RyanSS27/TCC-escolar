@@ -35,7 +35,6 @@ cont = ""
 
 //Some com as outras páginas
 var lendo = 0
-testes.innerHTML += lendo
 for (c = 0; c<=contPag; c++) {
     paginas[c] != paginas[lendo]? paginas[c].style.display = "none" : paginas[c].style.display = 'block'
 }
@@ -44,15 +43,12 @@ for (c = 0; c<=contPag; c++) {
 function trocaPag(avancarOUvoltar) {
     if (avancarOUvoltar == 1 && lendo != 0) {
         lendo = lendo - 1
-        testes.innerHTML += lendo
         trocaSelect()
     } else if (avancarOUvoltar == 2 && lendo + 1 < contPag) {
         lendo = lendo + 1
-        testes.innerHTML += lendo
         trocaSelect()
     } else if (avancarOUvoltar == 0) {
         lendo = Number(select.value)
-        testes.innerHTML += lendo
     }
     for (c = 0; c<contPag; c++) {
         paginas[c] != paginas[lendo]? paginas[c].style.display = "none" : paginas[c].style.display = 'block'

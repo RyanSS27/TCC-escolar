@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+/* CELULARES */
+@media screen and (max-width:768px) {
+    
+}
+
+/* AJUSTE DA IMAGEM METADE */
+
+@media screen and (min-width:768px) {
+    
+}
+
+/* CELULARES GRANDES E TABLETS */
+@media screen and (max-width: 964px) {
+}
+
+/* COMPUTADORES */
+@media screen and (min-width: 1200px) {
+   
+}
