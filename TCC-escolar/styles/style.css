@@ -76,9 +76,7 @@ header {
 }
 
 .logo {
-    color: var(--paletaCor5);
-    font-size: 1.8em;
-    display: inline;
+    max-width: 250px;
 }
 
 nav {
@@ -235,7 +233,7 @@ footer div {
 }
 
 .logo-footer {
-    max-width: 150px;
+    max-width: 250px;
     margin: 0px auto 25px auto;
 }
 

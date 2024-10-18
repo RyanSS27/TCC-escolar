@@ -2,6 +2,10 @@
 
 /* CELULARES */
 @media screen and (max-width:768px) {
+    form {
+        width: 100%;
+        padding: 15px;
+    }
     
 }
 
@@ -13,6 +17,20 @@
 
 /* CELULARES GRANDES E TABLETS */
 @media screen and (max-width: 964px) {
+    .posicionar {
+        display: block;
+        margin: 75px 25px;
+    }
+
+    form {
+        width: 80%;
+        margin: auto;
+        border: none;
+    }
+
+    .div-imagem {
+        display: none;
+    }
 }
 
 /* COMPUTADORES */

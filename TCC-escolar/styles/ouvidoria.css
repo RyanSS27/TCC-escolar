@@ -1,3 +1,7 @@
+body, html {
+    background-color: var(--paletaCor1);
+}
+
 main {
     background-color: var(--paletaCor1);
     padding-bottom: 25px;
@@ -38,31 +42,33 @@ h1 {
 
 p {
     color: var(--paletaCor5);
+}
+
+.container-topo-ouvidoria p {
     max-width: 750px;
     margin-top: 25px;
 }
 
 
 .posicionar {
-    background-color: rgba(255, 255, 255, 0.082);
-    backdrop-filter: blur(5px);
-    max-width: 1100px;
-    margin: 50px auto;
-    padding: 25px 0px;
-    border-radius: 25px;
     display: flex;
-    justify-content: space-between;
-    box-shadow: 0px 1px 10px #ffffff5f;
+    justify-content: center;
+    align-items: center;
 }
 
 form {
+    background-color: rgba(255, 255, 255, 0.082);
+    backdrop-filter: blur(5px);
     color: var(--cor-textos-fundo-contraste);
     text-align: center;
+    width: 100%;
+    margin: 50px auto;
+    padding: 25px 0px;
+    border-radius: 25px;
     
     width: 50%;
     padding: 0px 50px;
-    border-radius: 25px 0px 0px 25px;
-    border-right: 1px solid var(--cor-destaque);
+    box-shadow: 0px 1px 10px #ffffff5f;
 }
 
 h2 {
@@ -137,4 +143,34 @@ input[type="submit"]:active {
 
 .div-imagem img {
     width: 100%;
+}
+
+.limite {
+    max-width: 1000px;
+}
+
+.limite hr {
+    width: 100%;
+    margin: 25px 0px 50px 0px;
+}
+
+.limite .textos-metade {
+    max-width: 700px;
+    margin-right: 50px;
+}
+
+
+.importancia-comentario {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.separacao {
+    border-color: var(--paletaCor5);
+}
+
+footer {
+    margin-top: 100px;
 }
