@@ -113,6 +113,7 @@ input[type="submit"] {
     font-size: small;
     text-align: center;
     text-decoration: none;
+    font-weight: bold;
 
     
     padding: 10px 25px;
