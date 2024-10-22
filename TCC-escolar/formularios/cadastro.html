@@ -10,7 +10,8 @@
 </head>
 <body>
     <div class="container">
-        <form action="lugar-nenhum.php" method="post" autocomplete="on">
+        <form action="usuario.php" method="post" autocomplete="on">
+            <input type="hidden" name="acao" value="cadastrar">
                 <header>
                     <h1 id="titulo">Cadastro
                         <hr>
@@ -48,17 +49,16 @@
                         <label for="iconfirme">
                             <div class="legenda">Confime sua senha</div>
                         </label>
-                        <input type="password" name="confirme" id="iconfirme" class="campo" placeholder="Confime sua senha">
+                        <input type="password" name="confirme" id="iconfirme" class="campo" placeholder="Confime sua senha" onkeyup="liberar_envio()">
                     </div>
                 </div>
                 <div class="centralizar">
                     
-                        <a href="#" class="btn btn-white btn- animate"><button type="submit">Enviar</button>
+                        <a href="#" class="btn btn-white btn- animate"><button class="botao" type="button" onclick="alerta_erro()">Enviar</button>
                         </a>
                 </div>
             </form>
     </div>
-
-    <script src="../scripts/script.js"></script>
+    <script src="cadastro.js"></script>
 </body>
 </html>
