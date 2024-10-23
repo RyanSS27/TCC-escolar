@@ -38,6 +38,24 @@ switch (@$_POST["acao"]) {
         $email = $_POST['email'];
         $senha = $_POST['senha'];
         //Ainda em andamento
+
+        $verifica = "SELECT * FROM usuario WHERE (usuario = '$email' AND senha = MD5('$senha'))";
+        $res = $conn->query($verifica);
+        $qtd = $res->num_rows;
+
+        if ($qtd > 0) {
+            // Define um cookie de login e inicia a sessão
+            setcookie("login", $login);
+            $_COOKIE['login'];
+
+            session_start();
+            $_SESSION['user'] = $login;
+            header("Location: ../index.php");
+        } else {
+            // Exibe uma mensagem de erro se o usuário e/ou senha estiverem incorretos
+            print "<script language='javascript'>alert('Usuário e/ou senha incorreta!');</script>
+              <meta http-equiv='refresh' content='0;url=login.php'>";
+        }
     break;
 }
     
