@@ -10,21 +10,9 @@
     <title>Educação & Expresso</title>
 </head>
 <body>
-    <header>
-        <img src="imagens/logo-estudo-expresso-fundo-escuro.png" alt="Estudo & Expresso" class="logo">
-        <div>
-            <nav>
-                <a href="index.html">INICIO</a>
-                
-                <a href="quem-somos.html">SOBRE NÓS</a>
-                <a href="meu-aprendizado.html">MEU APRENDIZADO</a>
-                <div>
-                    <a href="formularios/cadastro.html"class="cadastro">CADASTRO</a>
-                    <a href="formularios/login.html">LOGIN</a>
-                </div>
-            </nav>
-        </div>
-    </header>
+    <?php
+        include('header.html');
+    ?>
     <main>
         <section id="container-topo">
             <div class="divisao-topo-textos">
@@ -57,7 +45,7 @@
                     <div class="limite">
                         <div class="borda">
                             <div class="caps">
-                                <img src="icons/meuicon.ico" alt="">
+                                <video src="animacoes/animacao-organizacao.webm" autoplay muted loop></video>
                                 <div class="conteudo-caps">
                                     <h4>Organizar o seu estudo</h4>
                                     <p>Estruture seu plano, crie um cronograma, gerencie tarefas e monitore seu progresso.</p>
@@ -67,7 +55,7 @@
                         </div>
                         <div class="borda">
                             <div class="caps">
-                                <img src="icons/meuicon.ico" alt="">
+                                <video src="animacoes/animacao-foco.webm" autoplay muted loop></video>
                                 <div class="conteudo-caps">
                                     <h4>Manter o foco e a Motivação</h4>
                                     <p>Use estratégias para manter a motivação, superar o desânimo e melhorar a concentração.</p>
@@ -78,7 +66,7 @@
                         <div class="divide-caps"></div>
                         <div class="borda">
                             <div class="caps">
-                                <img src="icons/meuicon.ico" alt="">
+                                <video src="animacoes/animacao-sono.webm" autoplay muted loop></video>
                                 <div class="conteudo-caps">
                                     <h4>Importância do Sono e do Ócio</h4>
                                     <p>Aprenda a utilizar sono e descanso a assimilação do conteúdo e saúde mental, melhorando retenção e clareza.</p>
@@ -88,7 +76,7 @@
                         </div>
                         <div class="borda">
                             <div class="caps">
-                                <img src="icons/meuicon.ico" alt="">
+                                <video src="animacoes/animacao-revisar.webm" autoplay muted loop></video>
                                 <div class="conteudo-caps">
                                     <h4>Revisão de Conteúdos e Utilizar o Estado Difuso</h4>
                                     <p>Aplique métodos de revisão para fixar informações e utilize o "estado difuso" para insights mais profundos.</p>
@@ -130,7 +118,7 @@
                 <div class="textos">
                     <h2><span>"</span>O ser humano é aquilo que a educação faz dele.<span>"</span></h2>
                     <aside>- Immanuel Kant, filósofo alemão.</aside>
-                    <p>Estudar não é apenas acumular conhecimento, mas sim uma jornada transformadora que nos permite entender o mundo e a nós mesmos, como disse Aristóteles, que afirmou que 'a educação é a melhor provisão para a velhice', ressaltando que o verdadeiro aprendizado nos prepara não apenas para enfrentar desafios, mas também para cultivar a sabedoria ao longo da vida."</p>
+                    <p>Para nós da Estudo & Expresso, estudar é uma verdadeira arte. É uma jornada contínua que nos engrandece, onde nos desafiamos a crescer, questionar e superar nossos limites. O aprendizado autodirigido permite que exploremos novas possibilidades, abrindo caminho para construirmos a nossa melhor versão.</p>
                 </div>
             </div>
         </section>
