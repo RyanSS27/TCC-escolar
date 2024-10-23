@@ -25,36 +25,36 @@
                         <label for="inome">
                             <div class="legenda">Nome completo</div>
                         </label>
-                        <input type="text" name="nome" id="inome" placeholder="Digite o seu nome completo">
+                        <input type="text" name="nome" id="inome" placeholder="Digite o seu nome completo" required>
                     </div>
                     <div class="campos">
                         <label for="iapelido">
                             <div class="legenda">Apelido</div>
                         </label>
-                        <input type="text" name="apelido" id="iapelido" class="campo" autocomplete="nickname" placeholder="Digite como deseja ser chamado">
+                        <input type="text" name="apelido" id="iapelido" class="campo" autocomplete="nickname" placeholder="Digite como deseja ser chamado" required>
                     </div class="campos">
                     <div class="campos">
                         <label for="iemail">
                             <div class="legenda">E-mail</div>
                         </label>
-                        <input type="email" name="email" id="iemail" class="campo" autocomplete="email" placeholder="Digite o seu e-mail">
+                        <input type="email" name="email" id="iemail" class="campo" autocomplete="email" placeholder="Digite o seu e-mail" required>
                     </div>
                     <div class="campos">
                         <label for="isenha">
                             <div class="legenda">Senha</div>
                         </label>
-                        <input type="password" name="senha" id="isenha" class="campo" autocomplete="new-password" placeholder="Digite sua senha" minlength="7">
+                        <input type="password" name="senha" id="isenha" class="campo" autocomplete="new-password" placeholder="Digite sua senha" minlength="7" required>
                     </div>
                     <div class="campos">
                         <label for="iconfirme">
                             <div class="legenda">Confime sua senha</div>
                         </label>
-                        <input type="password" name="confirme" id="iconfirme" class="campo" placeholder="Confime sua senha" onkeyup="liberar_envio()">
+                        <input type="password" name="confirme" id="iconfirme" class="campo" placeholder="Confime sua senha" onkeyup="liberar_envio()" onmouseup="liberar_envio()" required>
                     </div>
                 </div>
                 <div class="centralizar">
                     
-                        <a href="#" class="btn btn-white btn- animate"><button class="botao" type="button" onclick="alerta_erro()">Enviar</button>
+                        <a href="#" class="btn btn-white btn- animate"><button class="botao" type="button" onclick="barra_usuario_burro()">Enviar</button>
                         </a>
                 </div>
             </form>
