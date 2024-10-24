@@ -1,0 +1,103 @@
+/* CELULARES */
+@media screen and (max-width:415px) {
+    .imagem-metade {
+        width: 90%;
+    }
+
+    .fundador {
+        min-width: none;
+        width: 90%;
+    }
+
+    .fundadores {
+        display: block;
+        margin: auto;
+    }
+
+    .cargos {
+        text-align: center;
+        display: block;
+    }
+
+    .pessoa-cargo {
+        margin-top: 25px;
+    }
+}
+
+/* CELULARES GRANDES E TABLETS */
+@media screen and (min-width: 768px) {
+}
+
+
+
+
+/* COMPUTADORES */
+@media screen and (max-width: 970px) {
+    .o-que-fazemos {
+        display: block;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.445);
+    }
+
+    .texto {
+        text-align: center;
+        min-width: none;
+        max-width: 750px;
+        margin: auto;
+    }
+
+    .texto hr {
+        margin: 25px auto;
+    }
+
+    .texto, .image {
+        display: block;
+        width: 100%;
+    }
+
+    .image {
+        width: 100%;
+        display: block;
+    }
+
+    .image div {
+        margin-bottom: -10px;
+    }
+
+    .image::before {
+        width: 120%;
+        top: -80%;
+        left: 50%;
+        width: 100px;
+        height: 160%;
+        transform: translateX(-50%) rotate(95deg);
+    }
+
+    .imagem-metade {
+        margin: 50px auto;
+    }
+}
+
+@media screen and (min-width:970px) {
+    .o-que-fazemos {
+        max-height: 500px;
+    }
+}
+
+@media screen  and (min-width:970px) and (max-width: 1070px) {
+    .texto {
+        min-width: 500px
+    }
+    .image::before {
+        transform: translateY(-50%) rotate(10deg);
+    }
+
+    
+}
+
+
+/* TVs e GRANDES TELAS */
+@media screen and (min-width: 1070px) {
+    .texto {
+        min-width: 500px
+    }
+}

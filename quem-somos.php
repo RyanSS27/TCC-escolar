@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/quem-somos.css">
+    <link rel="stylesheet" href="styles/mediaquerys/quem-somos.css">
     <link rel="stylesheet" href="styles/mediaquerys/footer-rodape-mediaquery.css">
     <title>Quem somos?</title>
 </head>
@@ -13,7 +14,7 @@
 <body>
     <?php
         include('header.php');
-    ?>
+    ?> 
 
 
     <main>
@@ -83,7 +84,7 @@
                     <p>"Queremos fazer algo por todos que passam pelo mesmo que nós passamos. Estamos aqui para ajudar você a se tornar um aprendiz independente, um autodidata que nunca para de crescer. Porque acreditamos que o conhecimento é a ferramenta mais poderosa para transformar vidas."</p>
                     <aside>- Fundadores</aside>
                 </div>
-                <img src="imagens/quem-somos/" alt="" class="imagem-metade">
+                <img src="imagens/quem-somos/teste-final.png" alt="" class="imagem-metade">
             </div>
         </div>
         <div class="nossa-missao-valores">
