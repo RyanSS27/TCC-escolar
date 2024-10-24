@@ -11,7 +11,21 @@
 </head>
 <body>
     <?php
-        include('header.html');
+        if (isset($_SESSION['idusuario'])) {
+            if (isset($_COOKIE['userlogado'])){
+
+                @session_start();
+          
+                $_SESSION['usuarioLogado'] = $_COOKIE['userLogado'];      
+          
+                $_SESSION['idusuario'] = $_COOKIE['iduser'];
+          
+              }         
+          
+            include("header-usuario.php");
+        } else {
+            include('header.php');
+        }
     ?>
     <main>
         <section id="container-topo">
@@ -126,7 +140,7 @@
     
     
     <?php
-        include('footer.html');
+        include('footer.php');
     ?>
 
     

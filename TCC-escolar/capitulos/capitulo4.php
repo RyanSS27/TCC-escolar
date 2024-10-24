@@ -9,21 +9,9 @@
     <title>Revisão de Conteúdos e Utilizar o Estado Difuso</title>
 </head>
 <body>
-    <header>
-        <img src="../imagens/logo-estudo-expresso-fundo-escuro.png" alt="Estudo & Expresso" class="logo">
-        <div>
-            <nav>
-                <a href="../index.html">INICIO</a>
-                
-                <a href="../quem-somos.html">SOBRE NÓS</a>
-                <a href="../meu-aprendizado.html">MEU APRENDIZADO</a>
-                <div>
-                    <a href="../formularios/cadastro.html"class="cadastro">CADASTRO</a>
-                    <a href="../formularios/login.html">LOGIN</a>
-                </div>
-            </nav>
-        </div>
-    </header>
+    <?php
+        include('../header.php');
+    ?>
     <main>
 
         <section>

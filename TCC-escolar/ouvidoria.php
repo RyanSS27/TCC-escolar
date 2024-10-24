@@ -11,7 +11,7 @@
 </head>
 <body>
     <?php
-        include('header.html');
+        include('header.php');
     ?>
 
 
@@ -74,7 +74,7 @@
     </main>
     
     <?php
-        include('footer-escuro.html');
+        include('footer-escuro.php');
     ?>
 </body>
 </html>

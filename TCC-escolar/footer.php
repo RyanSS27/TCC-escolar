@@ -1,8 +1,11 @@
+<?php
+    $base_url = "http://" . $_SERVER['HTTP_HOST'] . "/tcc-escolar/tcc-escolar/";
+?>
 
-    <footer class="footer-tema-escuro">
+    <footer>
         <hr class="separacao">
         <div class="rodape-estudo-expresso">
-            <img src="imagens/logo-estudo-expresso-preta.png" alt="Informa Dev" class="logo-footer">
+            <img src="imagens/logo-estudo-expresso-fundo-claro.png" alt="Informa Dev" class="logo-footer">
             <p>Tudo de estudo para você. Pegue o seu café a vamos conversar, de aluno para aluno!</p>
 
             <span>
@@ -25,11 +28,11 @@
 
         <div>
             <strong class="titulo">Encontre-nos</strong>
-            <p><a href="quem-somos.html" target="_blank">Quem somos?</a></p>
+            <p><a href="<?php echo $base_url; ?>/quem-somos.html" target="_blank">Quem somos?</a></p>
             <p><a href="contato" target="_blank">Nosso trabalho</a></p>
-            <p><a href="ouvidoria.html" target="_blank">Ouvidoria</a></p>
+            <p><a href="<?php echo $base_url; ?>/ouvidoria.html" target="_blank">Ouvidoria</a></p>
             <p><a href="contato" target="_blank">Contate-nos</a></p>
         </div>
-        <div id="copyright">&#169; todos os direitos reservados aos desenvolvedores: <a href="https://github.com/ryanss27" target="_blank" rel="noopener noreferrer">Ryan de Souza Silva</a>, <a href="https://github.com/Alexteodoro">Alex Sandro</a> e <a href="https://github.com/danzz226/" target="_blank" rel="noopener noreferrer">Daniel Victor Siqueira</a>
+        <div id="copyright">&#169; todos os direitos reservados aos desenvolvedores: <a href="https://github.com/ryanss27" target="_blank" rel="noopener noreferrer">Ryan de Souza Silva</a>, <a href="https://github.com/Alexteodoro" target="_blank" rel="noopener noreferrer">Alex Sandro</a> e <a href="https://github.com/danzz226/" target="_blank" rel="noopener noreferrer">Daniel Victor Siqueira</a>
         </div>
     </footer>
