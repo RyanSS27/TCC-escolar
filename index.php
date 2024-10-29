@@ -11,19 +11,14 @@
 </head>
 <body>
     <?php
-        if (isset($_SESSION['idusuario'])) {
-            if (isset($_COOKIE['userlogado'])){
+        session_start(); // Inicia a sessão para verificar se o usuário está logado
+        include 'connection.php';
 
-                @session_start();
-          
-                $_SESSION['usuarioLogado'] = $_COOKIE['userLogado'];      
-          
-                $_SESSION['idusuario'] = $_COOKIE['iduser'];
-          
-              }         
-          
-            include("header-usuario.php");
+        if (isset($_SESSION['idusuario']) && !empty($_SESSION['idusuario'])) {
+            // Usuário logado - inclui o header para usuários cadastrados
+            include('header-usuario.php');
         } else {
+            // Usuário não logado - inclui o header para usuários não cadastrados
             include('header.php');
         }
     ?>

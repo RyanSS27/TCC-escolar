@@ -57,7 +57,7 @@ p {
 }
 
 form {
-    background-color: rgba(255, 255, 255, 0.082);
+    background-color: rgba(255, 255, 255, 0);
     backdrop-filter: blur(5px);
     color: var(--cor-textos-fundo-contraste);
     text-align: center;
@@ -77,17 +77,23 @@ h2 {
 }
 
 textarea {
-    background-color: var(--paletaCor5);
+    background-color: #164d693f;
+    color: var(--cor-textos-fundo-contraste);
+    font-family: var(--font-padrao);
     resize: none; 
-
+    
     width: 100%;
     height: 100px;
-    padding: 5px;
-    margin: 0px auto 25px 0px;
+    padding: 10px;
+    margin: 0px auto 25px auto;
     border-radius: 5px;
     outline: none;
-
+    
     display: block;
+}
+
+textarea::placeholder {
+    color: var(--paletaCor5);
 }
 
 textarea:focus {

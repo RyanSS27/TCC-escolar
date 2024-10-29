@@ -27,9 +27,9 @@
 
         <div>
             <strong class="titulo">Encontre-nos</strong>
-            <p><a href="<?php echo $base_url; ?>/quem-somos.php" target="_blank">Quem somos?</a></p>
+            <p><a href="<?php echo $base_url; ?>quem-somos.php" target="_blank">Quem somos?</a></p>
             <p><a href="contato" target="_blank">Nosso trabalho</a></p>
-            <p><a href="<?php echo $base_url; ?>/ouvidoria.php" target="_blank">Ouvidoria</a></p>
+            <p><a href="<?php echo $base_url; ?>ouvidoria.php" target="_blank">Ouvidoria</a></p>
             <p><a href="contato" target="_blank">Contate-nos</a></p>
         </div>
         <div id="copyright">&#169; todos os direitos reservados aos desenvolvedores: <a href="https://github.com/ryanss27" target="_blank" rel="noopener noreferrer">Ryan de Souza Silva</a>, <a href="https://github.com/Alexteodoro">Alex Sandro</a> e <a href="https://github.com/danzz226/" target="_blank" rel="noopener noreferrer">Daniel Victor Siqueira</a>

@@ -35,44 +35,41 @@ switch (@$_POST["acao"]) {
     break;
 
     case 'logar';
-        //Recebe os dados do formulário
-        $login =  mysqli_real_escape_string($conn, trim($_POST['email']));
-        $senha =  mysqli_real_escape_string($conn, trim($_POST['senha']));
+        session_start();
+        if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+            // Recebe e sanitiza os dados do formulário
+            $email = mysqli_real_escape_string($conn, trim($_POST['email']));
+            $senha = mysqli_real_escape_string($conn, trim($_POST['senha']));
+        
+            // Gera o hash MD5 da senha para comparar com o banco de dados
+            $senha_hash = md5($senha);
+        
+            // Consulta para verificar o usuário
+            $sql = "SELECT id_user, email FROM usuario WHERE email = '$email' AND senha = '$senha_hash'";
+            $result = mysqli_query($conn, $sql);
+        
+            // Verifica se a consulta retornou resultados
+            if ($result && mysqli_num_rows($result) > 0) {
+                // Usuário encontrado, extrai os dados do usuário
+                $user_data = mysqli_fetch_assoc($result);
+                $id_user = $user_data['id_user'];
+        
+                // Cria um cookie com o ID do usuário, válido por 30 dias
+                setcookie("iduser", $id_user, time() + 60 * 60 * 24 * 30, "/");
+        
+                // Armazena o ID do usuário na sessão
+                $_SESSION['idusuario'] = $id_user;
+        
+                // Feedback para o usuário e redirecionamento
+                echo "<script>alert('Login realizado com sucesso!'); window.location.href = '../index.php';</script>";
+            } else {
+                // Feedback para o caso de login inválido
+                echo "<script>alert('Email ou senha incorretos. Tente novamente.'); window.location.href = 'login.html';</script>";
+            }
+    } else {
+        echo "<script>alert('Método de requisição inválido.'); window.location.href = 'login.html';</script>";
+    }
 
-        //Verifica se o usuário está cadastrado e se o email bate com a senha
-        $sql = "SELECT id_user, email FROM usuario WHERE (email = '$login' AND senha = md5('$senha'))";
-
-        $r = @mysqli_query($conn, $sql);
-
-        $result = mysqli_fetch_array($r);		 
-        $id_user = $result['id_user'];  
-        	
-            
-
-        $num = mysqli_num_rows($r);	
-
-
-
-        if ($num > 0){
-                $sql = "SELECT email FROM usuarios WHERE email = '$login' ";
-                $r = @mysqli_query($conn, $sql);
-        } else{
-            $user_name = $login;			 
-        }
-            
-
-                // criar um cookie que vai nos dizer que o usuário está logado
-
-                //o usuario vai ficar logado por um mes		
-
-                setcookie("iduser",$id_user, time()+60*60*24*30);
-
-
-                session_start();
-
-                $_SESSION['idusuario']	 = $id_user;
-
-                print "<script language='javascript'>alert('Usuário logado.');";
     break;
 }
     
