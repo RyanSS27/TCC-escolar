@@ -94,7 +94,11 @@ h2 {
 
 .inferior-cap {
     margin-top: 25px;
-    display: none;
+    display: block;
+}
+
+.inferior-cap {
+    color: var(--paletaCor5);
 }
 
 .imagens-ilustrativas {

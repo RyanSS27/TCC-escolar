@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="styles/inicio.css" media="screen">
     <link rel="stylesheet" href="styles/mediaquerys/inicio-mediaquery.css">
     <link rel="stylesheet" href="styles/mediaquerys/footer-rodape-mediaquery.css">
-    <title>Educação & Expresso</title>
+    <title>Estudo & Expresso</title>
 </head>
 <body>
     <?php
@@ -18,7 +18,7 @@
             // Usuário logado - inclui o header para usuários cadastrados
             include('header-usuario.php');
         } else {
-            // Usuário não logado - inclui o header para usuários não cadastrados
+            // Usuário não logado - inclui o header para usuários não cadastrphp
             include('header.php');
         }
     ?>
@@ -59,7 +59,7 @@
                                     <h4>Organizar o seu estudo</h4>
                                     <p>Estruture seu plano, crie um cronograma, gerencie tarefas e monitore seu progresso.</p>
                                 </div>
-                                <a href="meu-aprendizado.html#cap1" class="ver-mais" onclick="ver_mais(1)">Ver mais</a>
+                                <a href="meu-aprendizado.php#cap1" class="ver-mais" onclick="ver_mais(1)">Ver mais</a>
                             </div>
                         </div>
                         <div class="borda">
@@ -69,7 +69,7 @@
                                     <h4>Manter o foco e a Motivação</h4>
                                     <p>Use estratégias para manter a motivação, superar o desânimo e melhorar a concentração.</p>
                                 </div>
-                                <a href="meu-aprendizado.html#cap2" class="ver-mais">Ver mais</a>
+                                <a href="meu-aprendizado.php#cap2" class="ver-mais">Ver mais</a>
                             </div>
                         </div>
                         <div class="divide-caps"></div>
@@ -80,7 +80,7 @@
                                     <h4>Importância do Sono e do Ócio</h4>
                                     <p>Aprenda a utilizar sono e descanso a assimilação do conteúdo e saúde mental, melhorando retenção e clareza.</p>
                                 </div>
-                                <a href="meu-aprendizado.html#cap3" class="ver-mais">Ver mais</a>
+                                <a href="meu-aprendizado.php#cap3" class="ver-mais">Ver mais</a>
                             </div>
                         </div>
                         <div class="borda">
@@ -90,7 +90,7 @@
                                     <h4>Revisão de Conteúdos e Utilizar o Estado Difuso</h4>
                                     <p>Aplique métodos de revisão para fixar informações e utilize o "estado difuso" para insights mais profundos.</p>
                                 </div>
-                                <a href="meu-aprendizado.html#cap4" class="ver-mais">Ver mais</a>
+                                <a href="meu-aprendizado.php#cap4" class="ver-mais">Ver mais</a>
                             </div>
                         </div>
                     </div>
@@ -139,6 +139,6 @@
     ?>
 
     
-    <script src="script.js"></script>
+    <script src="testaessamerda.js"></script>
 </body>
 </html>

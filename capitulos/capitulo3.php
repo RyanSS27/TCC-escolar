@@ -10,7 +10,16 @@
 </head>
 <body>
     <?php
-        include('../header.php');
+        session_start(); // Inicia a sessão para verificar se o usuário está logado
+        include '../connection.php';
+
+        if (isset($_SESSION['idusuario']) && !empty($_SESSION['idusuario'])) {
+            // Usuário logado - inclui o header para usuários cadastrados
+            include('../header-usuario.php');
+        } else {
+            // Usuário não logado - inclui o header para usuários não cadastrphp
+            include('../header.php');
+        }
     ?>
     </header>
     <main>
@@ -109,6 +118,7 @@
             <span class="proximo" onclick="trocaPag(2)">Próximo<img src="imagens/arrow_right_capitulo.png" alt="seta avançar"></span>
         </div>
     </main> 
-    <script src="../script-testes.js"></script>
+    <script src="../scripts/capitulos.js"></script>
+    <script src="../scripts/testaessamerda.js"></script>
 </body>
 </html>

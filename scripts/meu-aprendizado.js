@@ -1,4 +1,6 @@
 
+
+//ABRE E FECHA OS CAPÍTULOS DO MEU APRENDIZADO DOS USUÁRIOS LOGADOS
 var cap_interesse
 function ver_mais(cap) {
     cap_interesse = cap

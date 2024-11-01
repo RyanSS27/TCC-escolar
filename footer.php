@@ -5,7 +5,7 @@
     <footer>
         <hr class="separacao">
         <div class="rodape-estudo-expresso">
-            <img src="imagens/logo-estudo-expresso-fundo-claro.png" alt="Informa Dev" class="logo-footer">
+            <img src="imagens/logo-estudo-expresso-fundo-claro.png" alt="Estudo & Expresso" class="logo-footer">
             <p>Tudo de estudo para você. Pegue o seu café a vamos conversar, de aluno para aluno!</p>
 
             <span>

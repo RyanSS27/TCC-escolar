@@ -107,7 +107,15 @@ nav a {
     padding: 5px 15px;
 }
 
+nav button {
+    margin: 15px;
+}
+
 nav .cadastro {
+    color: var(--paletaCor5);
+}
+
+nav .deslogar {
     color: var(--paletaCor5);
 }
 
