@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+/* CELULARES */
+@media screen and (max-width:768px) {
+    nav {
+        display: none;
+    }
+}
+
+/* CELULARES GRANDES E TABLETS */
+@media screen and (min-width: 768px) {
+
+}
+
+/* QUEBRA DO CABEÇALHO */
+@media screen and (max-width: 920px) {
+    header {
+        padding: 25px; 
+        justify-content: space-around;
+    }
+
+    .container-nav nav {
+        display: none;
+    }
+
+    .container-nav > .menu-mobile {
+        margin: 0;
+        display: block;
+    }
+
+    .menu-mobile button  {
+        background-color: transparent;
+        border: none;
+    }
+
+    .menu-mobile button:active {
+        background-color: #f5f5f529;
+        transform: scale(95%);
+        transition: 0.1s;
+    }
+
+    .menu-mobile img {
+        max-width: 50px;
+    }
+
+    
+    .nav-mobile a {
+        color: var(--cor-textos-fundo-contraste);
+        text-align: center;
+        
+        width: 100%;
+        margin: 5px 0px;
+        padding: 10px;
+        display: block;
+    }
+    
+    .nav-mobile {
+        width: 100%;
+        margin: 15px 0px 0px 0px;
+        display: none;
+    }
+    
+    .nav-mobile a:hover {
+        background-color: #f5f5f529;
+    }
+
+    .nav-mobile a:active {
+        transform: scale(98%);
+    }
+
+    .login-mobile, .cadastro-mobile {
+        max-width: 200px;
+        margin: 5px auto !important;
+        border-radius: 100px;
+    }
+
+    .cadastro-mobile {
+        background-color: #ffb030 !important;
+        margin-top: 25px !important;
+    }
+
+    .login-mobile {
+        border: 1px solid #ffb030;
+    }
+
+    .cadastro-mobile:hover, .login-mobile:hover {
+        transform: scale(95%) !important;
+        transition: 8ms;
+    }
+
+    .cadastro-mobile:active, .login-mobile:active {
+        transform: scale(90%) !important;
+        transition: 8ms;
+    }
+
+}
+
+@media screen and (min-width: 920px) {
+    .nav-mobile, .menu-mobile {
+        display: none !important;
+    }
+}
+
+/* COMPUTADORES */
+@media screen and (min-width: 992px) {
+
+}
+
+@media screen and (min-width: 920) and (max-width: 1155px) {
+    .logo {
+        margin: auto;
+    }
+
+    header > div {
+        width: 100%;
+    }
+
+    nav {
+        max-width: 800px;
+    }
+}
+
+/* TVs e GRANDES TELAS */
+@media screen and (min-width: 1200) {
+
+}

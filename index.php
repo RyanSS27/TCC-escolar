@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/mediaquerys/header-mediaquery.css">
     <link rel="stylesheet" href="styles/inicio.css" media="screen">
     <link rel="stylesheet" href="styles/mediaquerys/inicio-mediaquery.css">
     <link rel="stylesheet" href="styles/mediaquerys/footer-rodape-mediaquery.css">
@@ -139,6 +140,6 @@
     ?>
 
     
-    <script src="testaessamerda.js"></script>
+    <script src="scripts/testaessamerda.js"></script>
 </body>
 </html>

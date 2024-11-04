@@ -7,9 +7,9 @@
         padding: 0px 15px;
     }
 
-    #container-topo img {
-        max-width: none;
-        width: 100%;
+    #container-topo .divisao-topo-imagem {
+        display: block;
+        max-width: 500px;
         margin: auto;
     }
 
