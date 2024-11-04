@@ -192,6 +192,10 @@ h2 {
     scale: 85%;
 }
 
+.texto-cor-destaque {
+    color: var(--cor-destaque) !important;
+}
+
 
 .separacao {
     text-align: center;

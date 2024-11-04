@@ -1,19 +1,18 @@
 body, html {
-    background-color: var(--paletaCor1);
+    background-color: var(--paletaCor6);
 }
 
 main {
-    background-color: var(--paletaCor1);
+    background-color: var(--paletaCor6);
     padding-bottom: 25px;
 }
 
 .container-topo-ouvidoria {
-    background: var(--paletaCor2) url(../imagens/ouvidoria/milton-final-form.jpg) center center / cover no-repeat fixed;
+    background: var(--paletaCor2) url(../imagens/ouvidoria/milton-ouvidoria.jpeg) center center / cover no-repeat fixed;
     color: var(--cor-textos-fundo-contraste);
     font-size: 0.9em;
     text-align: center;
 
-    border-radius: 15px 15px 0px 0px;
     padding: 200px 25px 80px 25px;
 
     display: flex;
@@ -49,11 +48,16 @@ p {
     margin-top: 25px;
 }
 
-
 .posicionar {
+    background-color: var(--paletaCor1);
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.fundo-claro {
+    background-color: var(--paletaCor6);
+    padding: 50px 25px;
 }
 
 form {
@@ -61,13 +65,12 @@ form {
     backdrop-filter: blur(5px);
     color: var(--cor-textos-fundo-contraste);
     text-align: center;
-    width: 100%;
+
+    max-width: 800px;
+    padding: 0px 50px;
     margin: 50px auto;
-    padding: 25px 0px;
     border-radius: 25px;
     
-    width: 50%;
-    padding: 0px 50px;
     box-shadow: 0px 1px 10px #ffffff5f;
 }
 
@@ -140,42 +143,47 @@ input[type="submit"]:active {
     color: var(--cor-textos-fundo-contraste);
 }
 
-.div-imagem {
-    width: 50%;
-    padding: 0px 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.div-imagem img {
-    width: 100%;
-}
-
 .limite {
     max-width: 1000px;
 }
 
-.limite hr {
-    width: 100%;
-    margin: 25px 0px 50px 0px;
+.curriculo-milton {
+    background-color: var(--paletaCor5);
+    padding: 25px 15px;
+    border-radius: 15px;
 }
 
-.limite .textos-metade {
-    max-width: 700px;
-    margin-right: 50px;
+.curriculo-milton h2 {
+    margin-top: 0;
 }
 
+.limite h2 {
+    color: var(--cor-textos);
+}
 
-.importancia-comentario {
+.limite p {
+    color: var(--cor-textos);
+}
+
+.container-texto-imagem-metade {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.separacao {
-    border-color: var(--paletaCor5);
+.imagem-metade {
+    max-width: 450px;
+    margin: 0px 15px;
+}
+
+.limite .textos-metade {
+    max-width: 700px;
+}
+
+.curriculo-milton hr {
+    margin: 50px auto;
+    display: none;
 }
 
 footer {

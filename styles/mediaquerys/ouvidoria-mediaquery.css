@@ -2,7 +2,14 @@
 
 /* CELULARES */
 @media screen and (max-width:768px) {
-    
+    .curriculo-milton {
+        border-radius: 0;
+        margin: 0px -25px;
+    }
+
+    .imagem-metade {
+        width: 80%;
+    }
 }
 
 /* AJUSTE DA IMAGEM METADE */
@@ -13,7 +20,18 @@
 
 /* CELULARES GRANDES E TABLETS */
 @media screen and (max-width: 964px) {
+    .container-texto-imagem-metade {
+        text-align: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .imagem-metade {
+        display: block;
+    }
 
+    .curriculo-milton hr {
+        display: block;
+    }
 }
 
 /* COMPUTADORES */

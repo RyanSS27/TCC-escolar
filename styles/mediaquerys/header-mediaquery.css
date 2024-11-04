@@ -2,47 +2,40 @@
 
 /* CELULARES */
 @media screen and (max-width:768px) {
-    nav {
-        display: none;
-    }
+    
 }
 
 /* CELULARES GRANDES E TABLETS */
-@media screen and (min-width: 768px) {
-
-}
-
-/* QUEBRA DO CABEÇALHO */
 @media screen and (max-width: 920px) {
     header {
         padding: 25px; 
         justify-content: space-around;
     }
-
+    
     .container-nav nav {
         display: none;
     }
-
+    
     .container-nav > .menu-mobile {
         margin: 0;
         display: block;
     }
-
+    
     .menu-mobile button  {
         background-color: transparent;
         border: none;
     }
-
+    
     .menu-mobile button:active {
         background-color: #f5f5f529;
         transform: scale(95%);
         transition: 0.1s;
     }
-
+    
     .menu-mobile img {
         max-width: 50px;
     }
-
+    
     
     .nav-mobile a {
         color: var(--cor-textos-fundo-contraste);
@@ -63,11 +56,11 @@
     .nav-mobile a:hover {
         background-color: #f5f5f529;
     }
-
+    
     .nav-mobile a:active {
         transform: scale(98%);
     }
-
+    
     .login-mobile, .cadastro-mobile {
         max-width: 200px;
         margin: 5px auto !important;
@@ -82,18 +75,20 @@
     .login-mobile {
         border: 1px solid #ffb030;
     }
-
+    
     .cadastro-mobile:hover, .login-mobile:hover {
         transform: scale(95%) !important;
         transition: 8ms;
     }
-
+    
     .cadastro-mobile:active, .login-mobile:active {
         transform: scale(90%) !important;
         transition: 8ms;
     }
-
+    
 }
+
+/* SOME COM OS MENUS DE TELAS MENORES */
 
 @media screen and (min-width: 920px) {
     .nav-mobile, .menu-mobile {
@@ -101,9 +96,12 @@
     }
 }
 
-@media screen and (min-width: 920) and (max-width: 1155px) {
+/* QUEBRA DO CABEÇALHO */
+
+@media screen and (min-width: 920px) and (max-width: 1155px) {
     header {
-        display: block;
+        
+        justify-content: center;
     }
     .logo {
         margin: auto;

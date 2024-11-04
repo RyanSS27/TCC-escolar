@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/mediaquerys/header-mediaquery.css">
     <link rel="stylesheet" href="capitulos.css">
     <link rel="stylesheet" href="capitulos-mediaquery.css">
     <title>Lide com a falta de foco, desânimo e motivação</title>

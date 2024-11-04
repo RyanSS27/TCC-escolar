@@ -4,6 +4,7 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <link rel="stylesheet" href="styles/style.css">
+            <link rel="stylesheet" href="styles/mediaquerys/header-mediaquery.css">
             <link rel="stylesheet" href="styles/meu-aprendizado.css">
             <link rel="stylesheet" href="styles/mediaquerys/meu-aprendizado-mediaquery.css">
             <link rel="stylesheet" href="styles/mediaquerys/footer-rodape-mediaquery.css">
