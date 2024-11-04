@@ -155,12 +155,6 @@
 }
 
 @media screen and (max-width: 1150px) {
-    h1.logo {
-        margin: auto;
-    }
-    nav {
-        width: 100%;
-    }
 
     .container-beneficios hr {
         display: block;

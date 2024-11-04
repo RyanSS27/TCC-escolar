@@ -73,12 +73,12 @@
         margin: 5px auto !important;
         border-radius: 100px;
     }
-
+    
     .cadastro-mobile {
         background-color: #ffb030 !important;
         margin-top: 25px !important;
     }
-
+    
     .login-mobile {
         border: 1px solid #ffb030;
     }
@@ -101,24 +101,28 @@
     }
 }
 
-/* COMPUTADORES */
-@media screen and (min-width: 992px) {
-
-}
-
 @media screen and (min-width: 920) and (max-width: 1155px) {
+    header {
+        display: block;
+    }
     .logo {
         margin: auto;
     }
 
-    header > div {
+    .container-nav {
         width: 100%;
     }
 
     nav {
         max-width: 800px;
+        margin: auto;
     }
 }
+/* COMPUTADORES */
+@media screen and (min-width: 992px) {
+
+}
+
 
 /* TVs e GRANDES TELAS */
 @media screen and (min-width: 1200) {
