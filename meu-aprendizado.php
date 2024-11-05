@@ -22,7 +22,7 @@
                 } else {
                     // Usuário não logado - inclui o header para usuários não cadastrados
                     include('header.php');
-                    include('paginas-usuario/meu-aprendizado-amostra.php');
+                    include('paginas-usuario/meu-aprendizado-amostra.html');
                 }
             ?>
 

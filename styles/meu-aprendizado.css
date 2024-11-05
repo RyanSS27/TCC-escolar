@@ -5,16 +5,43 @@ body,html {
 main {
     background-color: var(--paletaCor1);
     color: var(--cor-textos-fundo-contraste);
-    padding-top: 200px;
 }
 
 h2 {
     color: var(--cor-textos-fundo-contraste);
 }
 
+.dicas-basicas {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style-image: url(../icons/meuicon.ico);
+    text-align: left;
+    min-width: 450px;
+    max-width: 450px;
+    margin: 15px;
+}
+
+li strong {
+    display: block;
+}
+
+.topo {
+    text-align: center;
+}
+
 .topo hr {
     max-width: 350px;
-    margin: 15px 0px 50px 0px;
+    margin: 15px auto 50px auto;
 }
 
 .container {
