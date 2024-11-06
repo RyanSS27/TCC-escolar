@@ -1,7 +1,11 @@
 @charset "UTF-8";
 
 /* CELULARES */
-@media screen and (max-width:768px) {}
+@media screen and (max-width:768px) {
+    li {
+        min-width: 0;
+    }
+}
 
 /* CELULARES GRANDES E TABLETS */
 @media screen and (max-width: 992px) {
@@ -36,6 +40,13 @@
 
 
 @media screen and (max-width: 1092px) {
+    .itens {
+        
+    }
+
+    li {
+        max-width: 600px;
+    }
     .superior-cap h3 {
         width: 100%;
         text-align: center;

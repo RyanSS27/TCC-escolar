@@ -16,6 +16,11 @@ h2 {
     margin-bottom: 50px;
 }
 
+.dicas-basicas hr {
+    max-width: 900px;
+    margin: 15px auto  25px auto;
+}
+
 ul {
     display: flex;
     justify-content: space-around;
@@ -23,15 +28,28 @@ ul {
     flex-wrap: wrap;
 }
 
+.itens {
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+}
+
+.itens img {
+    height: 35px;
+    width: 35px;
+    display: inline-block;
+}
+
 li {
-    list-style-image: url(../icons/meuicon.ico);
+    list-style-type: none;
     text-align: left;
-    min-width: 450px;
     max-width: 450px;
     margin: 15px;
 }
 
 li strong {
+    color: #5fc7ff;
+
     display: block;
 }
 
