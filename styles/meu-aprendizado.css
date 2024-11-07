@@ -23,13 +23,49 @@ h2 {
 
 ul {
     display: flex;
-    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
 
+.dicas-principais {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.dica-central  {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.dicas-principais a {
+    color: var(--cor-textos-fundo-contraste);
+}
+
+.playlist {
+    background-color: #0c4313;
+    border-radius: 15px;
+    margin: 25px auto;
+}
+
+.playlist:hover {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    transform: scale(103%);
+    transition: 0.5s;
+}
+
+.playlist:active {
+    transform: scale(100%);
+}
+
 .itens {
     font-size: 0.8em;
+
+    padding: 15px;
+
     display: flex;
     align-items: center;
 }
@@ -44,13 +80,56 @@ li {
     list-style-type: none;
     text-align: left;
     max-width: 450px;
-    margin: 15px;
+    margin: 0px 0px 0px 15px;
 }
 
 li strong {
     color: #5fc7ff;
 
     display: block;
+}
+
+li strong.spotify {
+    color: greenyellow;
+}
+
+.demais-dicas {
+    width: 100%;
+
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.barra {
+    background-color: transparent;
+    color: var(--cor-textos-fundo-contraste);
+    box-shadow: 0px 1px 5px #ffffff41;
+    text-align: center;
+
+    width: 250px;
+    margin: 25px auto 0px auto;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.barra:hover {
+    cursor: pointer;
+}
+
+.barra:active {
+    transform: scale(90%);
+}
+.barra img {
+    max-width: 20px;
+    margin-left: 10px;
 }
 
 .topo {
@@ -135,6 +214,10 @@ li strong {
 
 .superior-cap h3 {
     max-width: 500px;
+}
+
+.superior-cap:hover {
+    cursor: pointer;
 }
 
 .inferior-cap {

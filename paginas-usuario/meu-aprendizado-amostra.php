@@ -1,54 +1,6 @@
 <main>
     <div class="bloco-topo"></div>
     <div class="container">
-        <div class="dicas-basicas">
-            <h2>Inicie sua jornada</h2>
-            <span>Aqui vão algumas dicas básicas para que você possa iniciar com o pé direito</span>
-            <hr>
-
-            <ul>
-                <div class="itens">
-                    <img src="icons/setinha-check.png" alt="item">
-                    <li><strong>Encontre um ambiente calmo e silencioso</strong> Evite locais com muito barulho ou distrações. Um lugar tranquilo ajuda muito a manter a concentração.</li>
-                </div>
-                <div class="itens">
-                    <img src="icons/setinha-check.png" alt="item">
-                    <li><strong>Crie metas simples e registre seu progresso</strong> Estabeleça pequenos objetivos diários e anote o que você alcançou, para ver sua evolução e manter a motivação.</li>
-                </div>
-                <div class="itens">
-                    <img src="icons/setinha-check.png" alt="item">
-                    <li><strong>Afaste as distrações</strong> Coloque o celular no silencioso e tire de perto qualquer coisa que possa desviar sua atenção.</li>
-                </div>
-                <div class="itens">
-                    <img src="icons/setinha-check.png" alt="item">
-                    <li><strong>Anote o que entender</strong> Escreva em um caderno o que aprendeu. Isso ajuda na fixação e facilita a revisão depois.</li>
-                </div>
-                <div class="itens">
-                    <img src="icons/setinha-check.png" alt="item">
-                    <li><strong>Use nossa playlist no Spotify para foco</strong> Ouvir músicas específicas para estudo pode ajudar a manter a concentração. Confira nossa playlist exclusiva.</li>
-                </div>
-                <div class="itens">
-                    <img src="icons/setinha-check.png" alt="item">
-                    <li><strong>Estabeleça um tempo mínimo de estudo</strong> Defina quanto tempo vai estudar e se comprometa com esse período, respeitando seu ritmo.</li>
-                </div>
-                <div class="itens">
-                    <img src="icons/setinha-check.png" alt="item">
-                    <li><strong>Tenha tudo à mão antes de começar</strong> Organize materiais como caderno, canetas, água, café, etc. Assim, evitando interrupções durante o estudo.</li>
-                </div>
-                <div class="itens">
-                    <img src="icons/setinha-check.png" alt="item">
-                    <li><strong>Revise o que aprendeu no final</strong> Uma rápida revisão ao término da sessão ajuda a reforçar o conteúdo e a identificar o que precisa ser revisitado.</li>
-                </div>
-            </ul>
-            
-
-
-
-
-
-
-
-        </div>
         <div class="topo">
             <span>Rumo a aprendizagem</span>
             <h2>Minha jornada</h2>

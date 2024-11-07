@@ -1,3 +1,24 @@
+var barra = document.querySelector('button.barra')
+
+
+
+function exibeDicas() {
+    var demaisDicas = document.querySelector('div.demais-dicas')
+    var setinha = document.querySelector('img.setinha')
+    var span = document.querySelector('span.msg-barra')
+    if (demaisDicas.style.display == 'none') {
+        demaisDicas.style.display = 'flex'
+        span.innerHTML = 'Ocultar'
+        setinha.style.transform = 'rotate(180deg)'
+        setinha.style.transition = '0.5s'
+
+    } else {
+        demaisDicas.style.display = 'none'
+        span.innerHTML = 'Veja mais'
+        setinha.style.transform = 'rotate(0deg)'
+        setinha.style.transition = '0.5s'
+    }
+}
 
 
 //ABRE E FECHA OS CAPÍTULOS DO MEU APRENDIZADO DOS USUÁRIOS LOGADOS

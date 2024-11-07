@@ -6,6 +6,7 @@
             <link rel="stylesheet" href="styles/style.css">
             <link rel="stylesheet" href="styles/mediaquerys/header-mediaquery.css">
             <link rel="stylesheet" href="styles/meu-aprendizado.css">
+            <link rel="stylesheet" href="styles/meu-aprendizado-usuario.css">
             <link rel="stylesheet" href="styles/mediaquerys/meu-aprendizado-mediaquery.css">
             <link rel="stylesheet" href="styles/mediaquerys/footer-rodape-mediaquery.css">
             <title>Meu aprendizado</title>
@@ -32,5 +33,6 @@
             ?>
 
         <script src="scripts/testaessamerda.js"></script>
+        <script src="scripts/meu-aprendizado.js"></script>
     </body>
 </html>    

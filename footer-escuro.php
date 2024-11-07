@@ -13,7 +13,7 @@
             <div>
                 <a href="https://www.facebook.com/ryan.souzasilva.948" target="_blank"><img src="icons/facebook.png" alt="facebook" class="icons"></a>
                 <a href="https://www.instagram.com/estudo__expresso/" target="_blank"><img src="icons/instagram.png" alt="instagram" class="icons"></a>
-                <a href="https://github.com/ryanss27" target="_blank"><img src="icons/github.png" alt="github" class="icons"></a>
+                <a href="https://open.spotify.com/user/31o5p755fqkjncfpe2fbldddrkbq?si=b66fcea53c704fb6" target="_blank"><img src="icons/spotify-transparente.png" alt="github" class="icons"></a>
             </div>
         </div>
 
