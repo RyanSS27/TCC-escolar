@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 17/10/2024 às 15:36
+-- Tempo de geração: 08/11/2024 às 14:41
 -- Versão do servidor: 10.4.28-MariaDB
 -- Versão do PHP: 8.2.4
 
@@ -63,8 +63,18 @@ CREATE TABLE `usuario` (
   `nome_completo` varchar(100) NOT NULL,
   `apelido` varchar(50) NOT NULL,
   `email` varchar(100) NOT NULL,
-  `senha` varchar(20) NOT NULL
+  `senha` varchar(32) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Despejando dados para a tabela `usuario`
+--
+
+INSERT INTO `usuario` (`id_user`, `nome_completo`, `apelido`, `email`, `senha`) VALUES
+(2, 'Ryan', 'Ryan Teste', '0001105546305sp@gmail.com', '1669198dbf6ea910ecce'),
+(3, 'Alex', 'Obscuro', '0001105546305sp@gmail.com', '1669198dbf6ea910ecce'),
+(4, 'Oliver', 'Fernanda', 'prostibulomassa@gmail.com', '1669198dbf6ea910ecce'),
+(6, 'Teste', 'Teste', 'teste@gmail.com', '1669198dbf6ea910ecce0172e14e7e52');
 
 --
 -- Índices para tabelas despejadas
@@ -111,7 +121,7 @@ ALTER TABLE `progresso`
 -- AUTO_INCREMENT de tabela `usuario`
 --
 ALTER TABLE `usuario`
-  MODIFY `id_user` int(4) NOT NULL AUTO_INCREMENT;
+  MODIFY `id_user` int(4) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- Restrições para tabelas despejadas

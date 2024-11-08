@@ -88,13 +88,6 @@
                             <div class="start"><img src="imagens/meu-aprendizado/play-arrow.png" alt="comece"> Start</div>
                         </a>
                     </div>
-                    <div class="seu-progresso">
-                        <h4>Seu progresso</h4>
-                        <p class="porcentagem">75%</p>
-                        <div class="barra-progresso">
-                            <div class="progresso"></div>
-                        </div>
-                    </div>
                 </div>
                 <img src="icons/icon-arrow-down.png" alt="abrir descrição do capítulo" class="arrow-down arrow2" onclick="abre_fecha(0, 1)">
             </div>
@@ -112,13 +105,6 @@
                         <a href="capitulos/capitulo2.php">
                             <div class="start"><img src="imagens/meu-aprendizado/play-arrow.png" alt="comece"> Start</div>
                         </a>
-                    </div>
-                    <div class="seu-progresso">
-                        <h4>Seu progresso</h4>
-                        <p class="porcentagem">75%</p>
-                        <div class="barra-progresso">
-                            <div class="progresso"></div>
-                        </div>
                     </div>
                 </div>
                 <img src="icons/icon-arrow-down.png" alt="abrir descrição do capítulo" class="arrow-down arrow2" onclick="abre_fecha(1, 1)">
@@ -138,13 +124,6 @@
                             <div class="start"><img src="imagens/meu-aprendizado/play-arrow.png" alt="comece"> Start</div>
                         </a>
                     </div>
-                    <div class="seu-progresso">
-                        <h4>Seu progresso</h4>
-                        <p class="porcentagem">75%</p>
-                        <div class="barra-progresso">
-                            <div class="progresso"></div>
-                        </div>
-                    </div>
                 </div>
                 <img src="icons/icon-arrow-down.png" alt="abrir descrição do capítulo" class="arrow-down arrow2" onclick="abre_fecha(2, 1)">
             </div>
@@ -163,13 +142,7 @@
                             <div class="start"><img src="imagens/meu-aprendizado/play-arrow.png" alt="comece"> Start</div>
                         </a>
                     </div>
-                    <div class="seu-progresso">
-                        <h4>Seu progresso</h4>
-                        <p class="porcentagem">75%</p>
-                        <div class="barra-progresso">
-                            <div class="progresso"></div>
-                        </div>
-                    </div>
+                    
                 </div>
                 <img src="icons/icon-arrow-down.png" alt="abrir descrição do capítulo" class="arrow-down arrow2"  onclick="abre_fecha(3, 1)">
             </div>

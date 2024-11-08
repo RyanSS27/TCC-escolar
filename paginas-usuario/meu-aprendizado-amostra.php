@@ -2,8 +2,8 @@
     <div class="bloco-topo"></div>
     <div class="container">
         <div class="topo">
-            <span>Rumo a aprendizagem</span>
-            <h2>Minha jornada</h2>
+            <span>Siga rumo a aprendizagem</span>
+            <h2>Construa o próprio amanhã</h2>
             <hr>
         </div>
         <div class="borda cap1" id="cap1">
