@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../styles/mediaquerys/header-mediaquery.css">
     <link rel="stylesheet" href="capitulos.css">
     <link rel="stylesheet" href="capitulos-mediaquery.css">
+    <link rel="shortcut icon" href="../icons/coffee-ico.ico" type="image/x-icon">
     <title>Revisão de Conteúdos e Utilizar o Estado Difuso</title>
 </head>
 <body>

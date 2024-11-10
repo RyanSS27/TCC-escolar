@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/quem-somos.css">
     <link rel="stylesheet" href="styles/mediaquerys/quem-somos.css">
     <link rel="stylesheet" href="styles/mediaquerys/footer-rodape-mediaquery.css">
+    <link rel="shortcut icon" href="icons/coffee-ico.ico" type="image/x-icon">
     <title>Quem somos?</title>
 </head>
 

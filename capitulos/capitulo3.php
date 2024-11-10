@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../styles/mediaquerys/header-mediaquery.css">
     <link rel="stylesheet" href="capitulos.css">
     <link rel="stylesheet" href="capitulos-mediaquery.css">
+    <link rel="shortcut icon" href="../icons/coffee-ico.ico" type="image/x-icon">
     <title>Importância do Sono e do Ócio</title>
 </head>
 <body>

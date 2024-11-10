@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="styles/inicio.css" media="screen">
     <link rel="stylesheet" href="styles/mediaquerys/inicio-mediaquery.css">
     <link rel="stylesheet" href="styles/mediaquerys/footer-rodape-mediaquery.css">
+    <link rel="shortcut icon" href="icons/coffee-ico.ico" type="image/x-icon">
     <title>Estudo & Expresso</title>
 </head>
 <body>

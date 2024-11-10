@@ -9,6 +9,7 @@
             <link rel="stylesheet" href="styles/meu-aprendizado-usuario.css">
             <link rel="stylesheet" href="styles/mediaquerys/meu-aprendizado-mediaquery.css">
             <link rel="stylesheet" href="styles/mediaquerys/footer-rodape-mediaquery.css">
+            <link rel="shortcut icon" href="icons/coffee-ico.ico" type="image/x-icon">
             <title>Meu aprendizado</title>
         </head>
         <body>

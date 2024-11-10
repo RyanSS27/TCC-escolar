@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="styles/ouvidoria.css">
         <link rel="stylesheet" href="styles/mediaquerys/ouvidoria-mediaquery.css">
         <link rel="stylesheet" href="styles/mediaquerys/footer-rodape-mediaquery.css">
+        <link rel="shortcut icon" href="icons/coffee-ico.ico" type="image/x-icon">
         <title>Ouvidoria</title>
     </head>
     <body>

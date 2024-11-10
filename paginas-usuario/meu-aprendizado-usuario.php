@@ -100,7 +100,7 @@
                 </div>
                 <div class="inferior-cap cap-usuario">
                     <img src="imagens/meu-aprendizado/desanimo.jpg" alt="imagem ilustrativa sobre desânimo" class="imagens-ilustrativas">
-                    <p>Para esse que um dos principais obstáculos, disponibilizamos uma série de dicas e estratégias práticas para manter a motivação em alta, combater o desânimo e melhorar sua concentração. Aprenda a identificar os fatores que influenciam seu desempenho e descubra como transformá-los a seu favor.</p>
+                    <p>Para esse que é um dos principais obstáculos, disponibilizamos uma série de dicas e estratégias práticas para manter a motivação em alta, combater o desânimo e melhorar sua concentração. Aprenda a identificar os fatores que influenciam seu desempenho e descubra como transformá-los a seu favor.</p>
                     <div class="container-start">
                         <a href="capitulos/capitulo2.php">
                             <div class="start"><img src="imagens/meu-aprendizado/play-arrow.png" alt="comece"> Start</div>
