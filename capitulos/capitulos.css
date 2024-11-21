@@ -45,10 +45,16 @@ main p {
 h2 {
     color: #3e4953;
     font-size: 2em;
+    margin-top: 50px;
+}
+
+h3 {
+    color: #3e4953;
+    margin-top: 50px;
 }
 
 .imagem-conteudo {
-    background: #F9F5F3 url(imagens/imagem-programacao.jpg) center center/ cover no-repeat fixed;
+    background: #F9F5F3 url() center center/ cover no-repeat fixed;
     height: 300px;
     width: 100%;
     margin: auto;
@@ -56,8 +62,14 @@ h2 {
     box-shadow: inset 0px 3px 6px 0px #000000db;
 }
 
+.img-foco {
+    background: #F9F5F3 url(imagens/foco.jpg) center center/ cover no-repeat fixed;
+    min-height: 400px;
+}
+
 .texto-imagem {
     width: 100%;
+    margin: 25px 0px;
     display: flex;
 }
 
@@ -66,18 +78,29 @@ h2 {
     display: block;
 }
 
+.texto-metade {
+    margin: auto;
+}
+
 .img-direita {
     border-radius: 0px 15px 15px 0px;
-    box-shadow: inset 0px 3px 6px 0px #000000db;
+    box-shadow: -2px 4px 8px 0px #00000059;
 
     margin-left: 20px;
 }
 
 .img-esquerda {
     border-radius: 15px 0px 0px 15px;
-    box-shadow: inset 0px 3px 6px 0px #000000db;
+    box-shadow: 2px 4px 8px 0px #00000059;
 
     margin-right: 20px;
+}
+
+.img-centralizada {
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0px 4px 8px 0px #00000059;
+    display: block;
 }
 
 

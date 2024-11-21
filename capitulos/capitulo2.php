@@ -34,74 +34,49 @@
         <div class="pagina">
             <section class="introducao">
                 <p>
-                    <span class="mark">E aí, programador!</span> Com mais de 700 opções de linguagens de programação para
-                    escolher, pode ser um desafio decidir qual delas aprender primeiro. Em última instância, esta escolha
-                    depende muito do que você está tentando construir através da programação.
+                    Opa, como vai? Espero que bem. Bom, quero te fazer uma pergunta, você já se sentiu desanimado(a) ao tentar estudar ou realizar uma tarefa importante? Ou talvez tenha se perguntado por que é tão difícil se concentrar, mesmo quando você sabe que precisa fazer algo? Pode ser que você já tenha passado horas assistindo a vídeos curtos ou navegando em redes sociais, enquanto aquela tarefa essencial continuava esperando. Se sim, você não está sozinho(a).
                 </p>
                 
             </section>
-            <div class="imagem-conteudo"></div>
+            <div class="imagem-conteudo img-foco"></div>
             <section class="introducao">
                 <p>
-                    Descubra 3 línguagens poderosas, escolhidas por nós, que julgamos estarem moldando o futuro da tecnologia
-                    e dominando o cenário da programação no ano de 2024. Quais suas aplicações práticas e as considerações
-                    essenciais para escolher a mais adequada para o seu próximo projeto ou objetivo de estudo será o que
-                    vamos lhe apresentar.
+                    Muitas vezes, ficamos frustrados com nossa própria falta de motivação e foco. Mas você já parou para pensar o que leva o seu cérebro a realizar (ou não) uma tarefa? Por que, às vezes, é fácil se perder em distrações, mas tão difícil se concentrar no que realmente importa? Talvez eu possa te ajudar a entender como você funciona um pouco melhor.
                 </p>
-                <h2>O que são linguagens de programação?</h2>
-                <p>
-                    As linguagens de programação são fundamentais para a automatização de tarefas, desenvolvimento de
-                    software, inovação tecnológica, interconectividade, educação e pesquisa, além de oferecerem amplas
-                    oportunidades de carreira e contribuírem significativamente para a economia global. Elas permitem a
-                    criação de programas que resolvem problemas específicos, impulsionam avanços em áreas como inteligência
-                    artificial e big data, facilitam a comunicação entre diferentes sistemas e dispositivos, e são
-                    essenciais no ensino de conceitos de lógica e ciências da computação. Assim, o domínio dessas linguagens
-                    é uma habilidade crucial no mundo moderno.
-                </p>
+            
+                <h2>Por que Não Temos Mais Foco?</h2>
                 <div class="texto-imagem">
                     <p class="texto-metade">
-                        Entrar na área de programação oferece diversos benefícios, como alta demanda e
-                        excelentes salários, garantindo empregabilidade e estabilidade. A flexibilidade de trabalho, muitas
-                        vezes permitindo trabalho remoto, proporciona um bom equilíbrio entre vida pessoal e profissional. A
-                        área oferece inúmeras oportunidades de crescimento e desenvolvimento de carreira, com a constante
-                        necessidade de aprender novas tecnologias, mantendo o trabalho estimulante.
+                        O nosso nível de foco e motivação está diretamente ligado a um neurotransmissor produzido no nosso cérebro, chamada dopamina. A dopamina é responsável por nos motivar e direcionar o nosso foco e esforços a realização de tarefas que nos provoquem prazer, satisfação ou interesse. Ela é o "empurrãozinho" que sentimos para começar e continuar uma tarefa. Assim, entender o funcionamento da dopamina é essencial para que possamos direcionar a nossa atenção ao que realmente queremos realizar, ou saber por que, muitas das vezes, nossa capacidade de focar está prejudicada.
                     </p>
-                    <img src="../imagens/meu-aprendizado/organizacao.jpg" class="img-metade img-direita">
+                    <img src="imagens/conhecendo-cerebro.png" class="img-metade img-direita">
                 </div>
-            </section>
-            <section class="linguagens phyton" id="phyton">
-                <h2><span class="mark">Top 3</span> linguagens para iniciar na área ou aplicar nos seus projetos em 2024</h2>
-                <h3>Phyton</h3>
+
+                <h3>Como funciona a liberação de dopamina?</h3>
+
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat iste facere quasi nam
-                    excepturiaspernatur natus officia illo accusantium facilis libero optio totam maiores ipsa, dicta,
-                    beatae cumque. Debitis autem.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, tenetur
-                    dicta hic pariatur totam doloribus magnam labore ducimus! Voluptatibus eaque, fugiat id quaerat
-                    voluptate nihil nulla cumque oditdolorem fuga?
+                    A dopamina é liberada em grande escala quando passamos por algum estímulo prazeroso e satisfatório, como navegar no feed de uma rede social, treinar, comer um doce, rir de uma piada, estudar, dentre outras coisas. No entanto, esses picos de prazer vêm acompanhados de uma queda rápida, como uma montanha-russa que despenca logo após subir. Após um alto pico de dopamina, tendemos a sentir uma queda severa, o que nos faz desanimar.
                 </p>
-            </section>
-            <section class="linguagens" id="js">
-                <h3>JavaScript</h3>
+
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat iste facere quasi nam excepturi
-                    aspernaturnatus officia illo accusantium facilis libero optio totam maiores ipsa, dicta, beatae cumque.
-                    Debitis,autem.
+                    Agora, imagine que você começa o seu dia checando as redes sociais. Seu cérebro recebe uma alta dose de prazer sem ter que fazer esforço algum. Logo depois, você tenta estudar, algo que naturalmente é mais cansativo do que jogar algum jogo ou ver navegar nas redes sociais, mas sente uma dificuldade enorme para se concentrar. Isso acontece porque você já gastou boa parte da sua dopamina em algo que foi instantaneamente prazeroso. E cara, eu posso apostar que essa situação te foi familiar.
                 </p>
-            </section>
-            <section class="linguagens" id="php">
-                <h3>PHP</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat iste facere quasi nam excepturi
-                    aspernaturnatus officia illo accusantium facilis libero optio totam maiores ipsa, dicta, beatae cumque.
-                    Debitis,autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio voluptate sint tempore,
-                    maxime ut beatae quam deserunt alias dolores, labore nulla in eveniet quas sit, blanditiis nobis
-                    repellat saepeullam.
-                </p>
+                <img src="imagens/desanimada.jpg" class="img-centralizada" alt="">
+                <p>Agora, pense comigo, tarefas minimamente produtivas ou necessárias, como estudar, limpar a casa, treinar, trabalhar, etc., só oferecem satisfação após certo esforço, não? É um prazer MUITO maior, mas a longo prazo. Você tem que entender que o seu cérebro busca o prazer, mas prioriza economizar energia. Então, para ele, essas tarefas são muito menos atraentes, já que, se você ficar o dia todo no celular, também pode obter prazer.</p>
+                <p>Perceba que, quando você não tem o costume de fazer alguma dessas tarefas e quer começar um novo hábito produtivo, você entra em um cabo de guerra com o seu cérebro, disputando para onde vai a sua atenção. Entender isso é quase libertador. Te faz perceber que todas as vezes que você conseguiu dar início a um projeto desses, você brigou com o seu cérebro e venceu, tornando a conquista ainda mais gratificante.</p>
+                <p>Por outro lado, percebe-se qual foi o motivo de falha em outros momentos, o que não tira a sua responsabilidade pelo ato, mas te dá uma nova arma para ser usada em um novo começo.</p>
             </section>
         </div>
 
         <div class="pagina">
-            <h2>pagina2</h2>
+            <section>
+                <h2>Qual o custo de manter hábitos destrutivos?</h2>
+                <p><span class="mark">Agora vou abordar algo muito importante</span> e peço que, por favor, preste atenção. Hábitos dopaminérgicos não estão ligados somente a drogas ilícitas ou substâncias como álcool. Eles podem incluir comportamentos comuns e socialmente aceitos, como o consumo excessivo de doces, redes sociais, pornografia e até mesmo conversas comuns e relacionamentos tóxicos no nosso dia-a-dia, que drenam nossa energia mental.</p>
+
+                <h3>Entrando em vícios</h3>
+                <p>E aqui está o perigo: se mantermos essas atividades que injetam sempre esse prazer alto e imediato, para regular a situação, o nosso cérebro começa a criar uma certa "tolerância" ao prazer. Acabamos também, por desgastar certas áreas no nosso cérebro que trabalham em frear e controlar esses impulsos, e é assim que perdemos o controle e entramos em um vício. Mesmo que não seja em drogas, podemos nos viciar em comportamentos simples, mas que também interfiram negativamente sua saúde e vida cotidiana.</p>
+                <p>Da mesma forma que alguém que usa drogas precisa de doses cada vez maiores para sentir o mesmo efeito, o nosso cérebro precisa de estímulos cada vez mais intensos para se sentir motivado. Por isso, é tão difícil abandonar hábitos ruins e começar novos hábitos produtivos. </p>
+            </section>
         </div>
         <div class="pagina">
             <h2>pagina3</h2>
