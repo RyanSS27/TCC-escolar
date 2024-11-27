@@ -86,7 +86,7 @@
             <div class="fundo-claro">
                 <div class="limite curriculo-milton">
                     <div class="container-texto-imagem-metade">
-                        <img src="imagens/ouvidoria/relacionamento-cliente.png" alt="" class="imagem-metade">
+                        <img src="imagens/ouvidoria/milton-perfil.png" alt="" class="imagem-metade">
                         <hr class="separacao">
                         <div class="textos-metade">
                             <h2>Quem é o Milton?</h2>

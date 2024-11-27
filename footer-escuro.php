@@ -22,13 +22,12 @@
             <p><a href="#">Estudo na sociedade moderna</a></p>
             <p><a href="#">Benefícios do aprendizado para o cérebro</a></p>
             <p><a href="#">Tecnologia aliada ao estudo</a></p>
-            <p><a href="#">Estratégias para vestibular</a></p>
+            <p><a href="https://glo.bo/2f2lrQO">Importântica de capacitar-se com a chegada da quarta revolução industrial.</a></p>
         </div>
 
         <div>
             <strong class="titulo">Encontre-nos</strong>
             <p><a href="<?php echo $base_url; ?>quem-somos.php" target="_blank">Quem somos?</a></p>
-            <p><a href="contato" target="_blank">Nosso trabalho</a></p>
             <p><a href="<?php echo $base_url; ?>ouvidoria.php" target="_blank">Ouvidoria</a></p>
             <p><a href="contato" target="_blank">Contate-nos</a></p>
         </div>
