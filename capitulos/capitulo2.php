@@ -26,7 +26,7 @@
     <main>
 
         <section>
-            <h1 onload="sequestraPag()">Lide com a falta de foco, desânimo e motivação</h1>
+            <h1 onload="sequestraPag()" id="topocap">Lide com a falta de foco, desânimo e motivação</h1>
             <aside>Ryan de Souza Silva <span>Publicado: Outubro 12, 2024</span> Atulizado Outubro 12, 2023</aside>
             <hr>
         </section>
@@ -87,11 +87,11 @@
         
 
         <div class="caps-nav">
-            <span class="voltar" onclick="trocaPag(1)"><img src="imagens/arrow_left_capitulo.png" alt="seta voltar">Voltar</span>
+            <a href="#topocap"><span class="voltar" onclick="trocaPag(1)"><img src="imagens/arrow_left_capitulo.png" alt="seta voltar">Voltar</span></a>
             <select class="select-paginas" onchange="trocaPag(0)">
                 
             </select>
-            <span class="proximo" onclick="trocaPag(2)">Próximo<img src="imagens/arrow_right_capitulo.png" alt="seta avançar"></span>
+            <a href="#topocap"><span class="proximo" onclick="trocaPag(2)">Próximo<img src="imagens/arrow_right_capitulo.png" alt="seta avançar"></span></a>
         </div>
     </main> 
     <script src="../scripts/capitulos.js"></script>

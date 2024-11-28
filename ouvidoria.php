@@ -56,28 +56,28 @@
                     <div class="container-opcoes">
                         
                         <div class="opcoes">
-                            <input type="checkbox" name="" id="Fazendo uma critica" value="critica">
+                            <input type="radio" name="opt" id="critica" value="critica">
                             <label for="critica">Criticar</label>
                         </div>
 
                         <div class="opcoes">
-                            <input type="checkbox" name="" id="elogio" value="Fazendo um elogio">
+                            <input type="radio" name="opt" id="elogio" value="Fazendo um elogio">
                             <label for="elogio">Elogiar</label>
                         </div>
                         
                         <div class="opcoes">
-                            <input type="checkbox" name="" id="dica" value="Dando uma dica"><label for="dica">Dar alguma dica</label>
+                            <input type="radio" name="opt" id="dica" value="Dando uma dica"><label for="dica">Dar alguma dica</label>
                         </div>
 
                         <div class="opcoes">
-                            <input type="checkbox" name="" id="erro" value="Reportando erro"><label for="erro">Reportar erro</label>
+                            <input type="radio" name="opt" id="erro" value="Reportando erro"><label for="erro">Reportar erro</label>
                         </div>
                     </div>
 
                     <input type="submit" value="Enviar" class="enviar">
 
                     <input type="hidden" name="_subject" value="Novo comentário!">
-                    <input type="hidden" name="_next" value="https://ryanss27.github.io/TCC-escolar/TCC-escolar/index.html">
+                    <input type="hidden" name="_next" value="<?php echo $base_url; ?>ouvidoria.php">
                     <input type="hidden" name="_captcha" value="false">
                     <input type="text" name="_honey" style="display: none;">
                 </form>

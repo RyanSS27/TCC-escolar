@@ -48,6 +48,23 @@ h2 {
     margin-top: 50px;
 }
 
+ul, ol {
+    margin: 25px 0px;
+}
+
+ul li {
+    list-style-position: inside;
+    margin: 15px 0px;
+}
+
+ol li {
+    list-style-position: inside;
+}
+
+.alerta {
+    max-width: 50px;
+}
+
 h3 {
     color: #3e4953;
     margin-top: 50px;
@@ -64,6 +81,11 @@ h3 {
 
 .img-foco {
     background: #F9F5F3 url(imagens/foco.jpg) center center/ cover no-repeat fixed;
+    min-height: 400px;
+}
+
+.img-ciclo-circadiano {
+    background: #F9F5F3 url(imagens/ciclo-circadiano.jpg) center center/ contain no-repeat fixed;
     min-height: 400px;
 }
 
@@ -92,7 +114,6 @@ h3 {
 .img-esquerda {
     border-radius: 15px 0px 0px 15px;
     box-shadow: 2px 4px 8px 0px #00000059;
-
     margin-right: 20px;
 }
 
@@ -101,6 +122,10 @@ h3 {
     margin: auto;
     box-shadow: 0px 4px 8px 0px #00000059;
     display: block;
+}
+
+.img-total {
+    width: 100%;
 }
 
 
