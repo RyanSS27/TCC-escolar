@@ -27,90 +27,39 @@
 
         <section>
             <h1 onload="sequestraPag()" id="topocap">Organize o seu estudo</h1>
-            <aside>Ryan de Souza Silva <span>Publicado: Outubro 12, 2024</span> Atulizado Outubro 12, 2023</aside>
+            <aside>Daniel Victor Cruz de Siqueira<span>Publicado: Dezembro 02, 2024</span> Atulizado Dezembro 02, 2024</aside>
             <hr>
         </section>
 
         <div class="pagina">
             <section class="introducao">
                 <p>
-                    <span class="mark">E aí, programador!</span> Com mais de 700 opções de linguagens de programação para
-                    escolher, pode ser um desafio decidir qual delas aprender primeiro. Em última instância, esta escolha
-                    depende muito do que você está tentando construir através da programação.
-                </p>
-                
-            </section>
-            <div class="imagem-conteudo"></div>
-            <section class="introducao">
-                <p>
-                    Descubra 3 línguagens poderosas, escolhidas por nós, que julgamos estarem moldando o futuro da tecnologia
-                    e dominando o cenário da programação no ano de 2024. Quais suas aplicações práticas e as considerações
-                    essenciais para escolher a mais adequada para o seu próximo projeto ou objetivo de estudo será o que
-                    vamos lhe apresentar.
-                </p>
-                <h2>O que são linguagens de programação?</h2>
-                <p>
-                    As linguagens de programação são fundamentais para a automatização de tarefas, desenvolvimento de
-                    software, inovação tecnológica, interconectividade, educação e pesquisa, além de oferecerem amplas
-                    oportunidades de carreira e contribuírem significativamente para a economia global. Elas permitem a
-                    criação de programas que resolvem problemas específicos, impulsionam avanços em áreas como inteligência
-                    artificial e big data, facilitam a comunicação entre diferentes sistemas e dispositivos, e são
-                    essenciais no ensino de conceitos de lógica e ciências da computação. Assim, o domínio dessas linguagens
-                    é uma habilidade crucial no mundo moderno.
-                </p>
-                <div class="texto-imagem">
-                    <p class="texto-metade">
-                        Entrar na área de programação oferece diversos benefícios, como alta demanda e
-                        excelentes salários, garantindo empregabilidade e estabilidade. A flexibilidade de trabalho, muitas
-                        vezes permitindo trabalho remoto, proporciona um bom equilíbrio entre vida pessoal e profissional. A
-                        área oferece inúmeras oportunidades de crescimento e desenvolvimento de carreira, com a constante
-                        necessidade de aprender novas tecnologias, mantendo o trabalho estimulante.
-                    </p>
-                    <img src="../imagens/meu-aprendizado/organizacao.jpg" class="img-metade img-direita">
-                </div>
-            </section>
-            <section class="linguagens phyton" id="phyton">
-                <h2><span class="mark">Top 3</span> linguagens para iniciar na área ou aplicar nos seus projetos em 2024</h2>
-                <h3>Phyton</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat iste facere quasi nam
-                    excepturiaspernatur natus officia illo accusantium facilis libero optio totam maiores ipsa, dicta,
-                    beatae cumque. Debitis autem.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Adipisci, tenetur
-                    dicta hic pariatur totam doloribus magnam labore ducimus! Voluptatibus eaque, fugiat id quaerat
-                    voluptate nihil nulla cumque oditdolorem fuga?
+                    A organização é o primeiro passo para transformar o desejo de estudar em um hábito produtivo e eficiente. Quando você se organiza, cria um ambiente onde o aprendizado flui de forma natural, com metas claras e um plano bem estruturado. Isso não só ajuda a evitar a sensação de sobrecarga, mas também garante que você mantenha o foco e avance de maneira constante. Neste capítulo, vamos explorar como a organização pode ser sua aliada, fornecendo ferramentas práticas para planejar seus estudos e alcançar seus objetivos com mais tranquilidade e confiança.
                 </p>
             </section>
-            <section class="linguagens" id="js">
-                <h3>JavaScript</h3>
+            <section class="metas">
+                <h2>Aprenda a definir metas com o método <span class="mark">SMART</span></h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat iste facere quasi nam excepturi
-                    aspernaturnatus officia illo accusantium facilis libero optio totam maiores ipsa, dicta, beatae cumque.
-                    Debitis,autem.
+                    O método SMART é uma ferramenta utilizada para definir metas de forma clara e eficaz, ajudando a garantir que sejam alcançáveis. A sigla SMART representa cinco critérios que uma meta deve atender: Specífica (clara e bem definida), Mensurável (quantificável para acompanhar o progresso), Atingível (realista e possível de ser alcançada), Relevante (importante e alinhada com objetivos maiores) e Temporal (com prazo definido).
                 </p>
-            </section>
-            <section class="linguagens" id="php">
-                <h3>PHP</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat iste facere quasi nam excepturi
-                    aspernaturnatus officia illo accusantium facilis libero optio totam maiores ipsa, dicta, beatae cumque.
-                    Debitis,autem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio voluptate sint tempore,
-                    maxime ut beatae quam deserunt alias dolores, labore nulla in eveniet quas sit, blanditiis nobis
-                    repellat saepeullam.
+                Esse método é amplamente utilizado em diversas áreas, como gestão de projetos, desenvolvimento pessoal e planejamento estratégico, pois ajuda a transformar ideias vagas em ações concretas. Para aplicá-lo, basta analisar cada critério ao formular a meta, por exemplo, ao invés de "quero economizar dinheiro", dizer "quero economizar R$ 500 em 3 meses, guardando R$ 167 por mês". Dessa forma, o método SMART proporciona mais clareza, motivação e organização para atingir objetivos.
+                </p>
+                <img src="imagens/smart.png" class="img-centralizada" alt="imagem ilustrativa ciclo smart">
+            </section>
+            <section class="ciclo-de-estudos">
+                <h2>Organize o seu estudo</h2>
+                <p>
+                    O ciclo de estudos e o método Pomodoro são estratégias eficazes para aumentar a produtividade e a retenção de informações durante o aprendizado. O ciclo de estudos organiza o tempo de forma estruturada, alternando entre matérias ou tópicos específicos para evitar sobrecarga e melhorar o foco. Já o método Pomodoro consiste em dividir o estudo em blocos de tempo, geralmente de 25 minutos, seguidos por curtos intervalos de 5 minutos, com pausas maiores após quatro ciclos. 
+                </p>
+            </section> 
+                <div class="imagem-conteudo img-organizacao"></div>
+            <section class="ciclo-de-estudos">
+                <p>
+                    Essa combinação é ideal para manter a concentração, reduzir a procrastinação e facilitar o aprendizado em etapas. Para aplicá-los, defina previamente os conteúdos a serem estudados, organize-os em ciclos e utilize um cronômetro para os intervalos do Pomodoro. Essa abordagem não apenas melhora o rendimento, mas também promove o equilíbrio entre esforço e descanso, otimizando o processo de aprendizado.
                 </p>
             </section>
         </div>
-
-        <div class="pagina">
-            <h2>pagina2</h2>
-        </div>
-        <div class="pagina">
-            <h2>pagina3</h2>
-        </div>
-        <div class="pagina">
-            <h2>pagina4</h2>
-        </div>
-        
-
         <div class="caps-nav">
             <a href="#topocap"><span class="voltar" onclick="trocaPag(1)"><img src="imagens/arrow_left_capitulo.png" alt="seta voltar">Voltar</span></a>
             <select class="select-paginas" onchange="trocaPag(0)">

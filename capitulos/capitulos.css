@@ -59,6 +59,7 @@ ul li {
 
 ol li {
     list-style-position: inside;
+    margin: 25px 0px;
 }
 
 .alerta {
@@ -84,8 +85,18 @@ h3 {
     min-height: 400px;
 }
 
+.img-motivacao-intrinseca {
+    background: #F9F5F3 url(imagens/motivacao-intrinseca.jpeg) center center/ cover no-repeat fixed;
+    min-height: 500px;
+}
+
 .img-ciclo-circadiano {
     background: #F9F5F3 url(imagens/ciclo-circadiano.jpg) center center/ contain no-repeat fixed;
+    min-height: 400px;
+}
+
+.img-organizacao {
+    background: #F9F5F3 url(imagens/organizacao.jpg) center center/ contain no-repeat fixed;
     min-height: 400px;
 }
 
@@ -126,6 +137,15 @@ h3 {
 
 .img-total {
     width: 100%;
+}
+
+.perdao {
+    margin: 25px auto;
+    max-width: 900px;
+}
+
+mark {
+    background-color: var(--cor-destaque);
 }
 
 
