@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/mediaquerys/header-mediaquery.css">
     <link rel="stylesheet" href="styles/inicio.css" media="screen">
@@ -27,9 +28,9 @@
     <main>
         <section id="container-topo">
             <div class="divisao-topo-textos">
-                <h2 class="titulo-destaque">Aprenda a aprender</h2>
-                <h1>E CONSTRUA O PRÓPRIO AMANHÃ</h1>
-                <p>Estudo & Expresso é o seu espaço para aprender de forma eficiente e motivada. Oferecemos ferramentas e dicas para que o estudo faça parte de sua rotina, ajudando você a construir um futuro com confiança.</p>
+                <h2 class="titulo-destaque titulos-animation">Aprenda a aprender</h2>
+                <h1 class="titulos-animation">E CONSTRUA O PRÓPRIO AMANHÃ</h1>
+                <p class="texto-topo-animation">Estudo & Expresso é o seu espaço para aprender de forma eficiente e motivada. Oferecemos ferramentas e dicas para que o estudo faça parte de sua rotina, ajudando você a construir um futuro com confiança.</p>
                 <div>
                     <a href="formularios/cadastro.html" class="link-cadastro">
                         <div class="cadastro">Cadastre-se</div>
@@ -52,56 +53,63 @@
             <div class="passos">
                 
                 <h3 class="titulo-destaque">Não sabe por onde começar?</h3>
-                    <h2>Pegue um café e explore conosco as melhores formas de...</h2>
+                <h2>Pegue um café e explore conosco as melhores formas de...</h2>
                     <div class="limite">
-                        <div class="borda">
-                            <div class="caps">
-                                <video src="animacoes/animacao-organizacao.webm" autoplay muted loop></video>
-                                <div class="conteudo-caps">
-                                    <h4>Organizar o seu estudo</h4>
-                                    <p>Estruture seu plano, crie um cronograma, gerencie tarefas e monitore seu progresso.</p>
+                        <div class="borda-animation">
+                            <div class="borda">
+                                <div class="caps">
+                                    <video src="animacoes/animacao-organizacao.webm" autoplay muted loop></video>
+                                    <div class="conteudo-caps">
+                                        <h4>Organizar o seu estudo</h4>
+                                        <p>Estruture seu plano, crie um cronograma, gerencie tarefas e monitore seu progresso.</p>
+                                    </div>
+                                    <a href="meu-aprendizado.php#cap1" class="ver-mais" onclick="ver_mais(1)">Ver mais</a>
                                 </div>
-                                <a href="meu-aprendizado.php#cap1" class="ver-mais" onclick="ver_mais(1)">Ver mais</a>
                             </div>
                         </div>
-                        <div class="borda">
-                            <div class="caps">
-                                <video src="animacoes/animacao-foco.webm" autoplay muted loop></video>
-                                <div class="conteudo-caps">
-                                    <h4>Manter o foco e a Motivação</h4>
-                                    <p>Use estratégias para manter a motivação, superar o desânimo e melhorar a concentração.</p>
+                        <div class="borda-animation">
+                            <div class="borda">
+                                <div class="caps">
+                                    <video src="animacoes/animacao-foco.webm" autoplay muted loop></video>
+                                    <div class="conteudo-caps">
+                                        <h4>Manter o foco e a Motivação</h4>
+                                        <p>Use estratégias para manter a motivação, superar o desânimo e melhorar a concentração.</p>
+                                    </div>
+                                    <a href="meu-aprendizado.php#cap2" class="ver-mais">Ver mais</a>
                                 </div>
-                                <a href="meu-aprendizado.php#cap2" class="ver-mais">Ver mais</a>
                             </div>
                         </div>
                         <div class="divide-caps"></div>
-                        <div class="borda">
-                            <div class="caps">
-                                <video src="animacoes/animacao-sono.webm" autoplay muted loop></video>
-                                <div class="conteudo-caps">
-                                    <h4>Importância do Sono e do Ócio</h4>
-                                    <p>Aprenda a utilizar sono e descanso a assimilação do conteúdo e saúde mental, melhorando retenção e clareza.</p>
+                        <div class="borda-animation">
+                            <div class="borda">
+                                <div class="caps">
+                                    <video src="animacoes/animacao-sono.webm" autoplay muted loop></video>
+                                    <div class="conteudo-caps">
+                                        <h4>Importância do Sono e do Ócio</h4>
+                                        <p>Aprenda a utilizar sono e descanso a assimilação do conteúdo e saúde mental, melhorando retenção e clareza.</p>
+                                    </div>
+                                    <a href="meu-aprendizado.php#cap3" class="ver-mais">Ver mais</a>
                                 </div>
-                                <a href="meu-aprendizado.php#cap3" class="ver-mais">Ver mais</a>
                             </div>
                         </div>
-                        <div class="borda">
-                            <div class="caps">
-                                <video src="animacoes/animacao-revisar.webm" autoplay muted loop></video>
-                                <div class="conteudo-caps">
-                                    <h4>Revisão de Conteúdos e Utilizar o Estado Difuso</h4>
-                                    <p>Aplique métodos de revisão para fixar informações e utilize o "estado difuso" para insights mais profundos.</p>
+                        <div class="borda-animation">
+                            <div class="borda">
+                                <div class="caps">
+                                    <video src="animacoes/animacao-revisar.webm" autoplay muted loop></video>
+                                    <div class="conteudo-caps">
+                                        <h4>Revisão de Conteúdos e Utilizar o Estado Difuso</h4>
+                                        <p>Aplique métodos de revisão para fixar informações e utilize o "estado difuso" para insights mais profundos.</p>
+                                    </div>
+                                    <a href="meu-aprendizado.php#cap4" class="ver-mais">Ver mais</a>
                                 </div>
-                                <a href="meu-aprendizado.php#cap4" class="ver-mais">Ver mais</a>
                             </div>
                         </div>
                     </div>
-                </div>
             </div>
             <div class="container-beneficios">
                 <div class="beneficios beneficios-fundo1">
                     <div class="limite">
-                        <img src="imagens/organizar-estudos.jpeg" alt="imagem ilustrativa de organização">
+                        <img src="imagens/organizar-estudos.jpeg" alt="imagem ilustrativa de organização" class="img-beneficio">
                         <div class="conteudo">
                             <h4>Benefícios do estudo</h4>
                             <p>Estudar pode aumentar a capacidade da memória, ativar o poder de concentração e, com o hábito, aumentar a nossa capacidade de aprender. Quanto mais estudamos e exercitamos o cérebro, mais protegido ele estará de doenças de degeneração, como o mal de Alzheimer, por exemplo.</p>
@@ -115,7 +123,7 @@
                             <h4>Se torne sua melhor versão</h4>
                             <p>Hoje, com o acesso facilitado à informação, aprender nunca foi tão fácil e acessível, tornando a busca por conhecimento um caminho de autodescoberta e liberdade.</p>
                         </div>
-                        <img src="imagens/desanimo.jpeg" alt="imagem ilustrativa desanimo">
+                        <img src="imagens/desanimo.jpeg" alt="imagem ilustrativa desanimo" class="img-desanimo">
                     </div>
                 </div>
                 <a href="formularios/cadastro.html"  class="link-cadastro">

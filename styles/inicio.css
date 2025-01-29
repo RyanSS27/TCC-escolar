@@ -110,19 +110,32 @@ hr.separacao-topo {
     flex-wrap: wrap;
 }
 
-.passos > .limite .borda {
+.borda-animation {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.borda {
     background-image: var(--gradiente);
     color: white;
     text-decoration: none;
 
+    max-width: 230px;
     margin-bottom: 25px;
     padding: 1px;
     border-radius: 15px;
+
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+    /* Adicionar uma transição global para o transform */
 }
 
-.passos > .limite > .borda:hover {
-    transform: scale(105%);
-    transition-duration: 0.5s;
+.borda:hover {
+    transform: scale(1.05); /* Mantém o hover */
+    transition: transform 0.5s ease;
 }
 
 
@@ -150,14 +163,6 @@ hr.separacao-topo {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-}
-
-.caps img {
-    background-color: white;
-    width: 50px;
-    margin: 0px auto 15px auto;
-    border-radius: 100px;
-    display: block;
 }
 
 .caps h4 {

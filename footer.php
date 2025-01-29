@@ -33,6 +33,6 @@
             <p><a href="<?php echo $base_url; ?>ouvidoria.php" target="_self">Ouvidoria</a></p>
             <p><a href="contato" target="_self">Contate-nos</a></p>
         </div>
-        <div id="copyright">&#169; todos os direitos reservados aos desenvolvedores: <a href="https://github.com/ryanss27" target="_blank" rel="noopener noreferrer">Ryan de Souza Silva</a>, <a href="https://github.com/Alexteodoro" target="_blank" rel="noopener noreferrer">Alex Sandro</a> e <a href="https://github.com/danzz226/" target="_blank" rel="noopener noreferrer">Daniel Victor Siqueira</a>
+        <div id="copyright">&#169; todos os direitos reservados aos CEOs: <a href="https://github.com/ryanss27" target="_blank" rel="noopener noreferrer">Ryan de Souza Silva</a>, <a href="https://github.com/Alexteodoro" target="_blank" rel="noopener noreferrer">Alex Sandro</a> e <a href="https://github.com/danzz226/" target="_blank" rel="noopener noreferrer">Daniel Victor Siqueira</a>
         </div>
     </footer>

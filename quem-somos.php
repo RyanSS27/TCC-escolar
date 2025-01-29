@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/mediaquerys/header-mediaquery.css">
     <link rel="stylesheet" href="styles/quem-somos.css">
@@ -33,14 +34,14 @@
         </div>
         <div class="o-que-fazemos">
             <div class="texto">
-                <div class="sobre-nos">
+                <div class="sobre-nos titulos-animation">
                     <span>Sobre nós</span>
                     <h1>Estudo & Expresso</h1>
                     <hr>
                 </div>
                 <div>
-                    <h2>Se engrandeça através da aprendizagem</h2>
-                    <p class="p-o-que-fazemos">Na Estudo & Expresso, ajudamos as pessoas a se autodescobrirem e crescerem através da aprendizagem, tornando-a uma jornada prazerosa. Nosso objetivo é capacitar você a iniciar sua jornada de estudos com independência, construindo um caminho de conhecimento que reflita seus sonhos e ambições. Com a gente, aprender deixa de ser uma obrigação e vira um hábito agradável</p>
+                    <h2 class="titulos-animation">Se engrandeça através da aprendizagem</h2>
+                    <p class="p-o-que-fazemos texto-topo-animation">Na Estudo & Expresso, ajudamos as pessoas a se autodescobrirem e crescerem através da aprendizagem, tornando-a uma jornada prazerosa. Nosso objetivo é capacitar você a iniciar sua jornada de estudos com independência, construindo um caminho de conhecimento que reflita seus sonhos e ambições. Com a gente, aprender deixa de ser uma obrigação e vira um hábito agradável</p>
                 </div>
             </div>
             <div class="image">
@@ -59,17 +60,7 @@
                         <span>CEO / Co-fundador</span>
                     </div>
                 </div>
-                <p>Diretor de mídia, gerente de desenvolvimento e da Naju.</p>
-            </div>
-            <div class="fundador">
-                <div class="cargos">
-                    <img src="imagens/quem-somos/alex.jpeg" alt="">
-                    <div class="pessoa-cargo">
-                        <h3>Alex</h3>
-                        <span>CEO / Co-fundador</span>
-                    </div>
-                </div>
-                <p>Chefe do marketing, diretor jurídico e o mano do canva</p>
+                <p>Diretor de mídia, gerente de planejamento, pesquisador e da Naju.</p>
             </div>
             <div class="fundador">
                 <div class="cargos">
@@ -79,7 +70,17 @@
                         <span>CEO / Co-fundador</span>
                     </div>
                 </div>
-                <p>Desenvolvedor web, cordenador de planejamento e Corintiano</p>
+                <p>Desenvolvedor web, cordenador de planejamento, pesquisador e Corintiano</p>
+            </div>
+            <div class="fundador">
+                <div class="cargos">
+                    <img src="imagens/quem-somos/alex.jpeg" alt="">
+                    <div class="pessoa-cargo">
+                        <h3>Alex</h3>
+                        <span>CEO / Co-fundador</span>
+                    </div>
+                </div>
+                <p>Chefe do marketing, diretor jurídico, pesquisador e o mano do canva</p>
             </div>
         </div>
 
@@ -111,21 +112,24 @@
                         </div>
                     </div>
                 
-                    <div class="pilares"><img src="imagens/quem-somos/imgs-icons/automia.png" alt="" class="icons-pilares">
+                    <div class="pilares">
+                        <img src="imagens/quem-somos/imgs-icons/automia.png" alt="" class="icons-pilares">
                         <hr>
                         <h3>Autonomia</h3>
                         <div class="textos-pilares">
                             <p>Queremos ensinar as pessoas a dirigirem sua própria aprendizagem, tornando-a prazerosa e significativa.</p>
                         </div>
                     </div>
-                    <div class="pilares"><img src="imagens/quem-somos/imgs-icons/curiosidade.png" alt="" class="icons-pilares">
+                    <div class="pilares">
+                        <img src="imagens/quem-somos/imgs-icons/curiosidade.png" alt="" class="icons-pilares">
                         <hr>
                         <h3>Curiosidade</h3>
                         <div class="textos-pilares">
                             <p>Valorizamos a curiosidade, a autonomia e o compromisso com o crescimento contínuo.</p>
                         </div>
                     </div>
-                    <div class="pilares"><img src="imagens/quem-somos/imgs-icons/caminho.png" alt="" class="icons-pilares">
+                    <div class="pilares">
+                        <img src="imagens/quem-somos/imgs-icons/caminho.png" alt="" class="icons-pilares">
                         <hr>
                         <h3>Sua jornada</h3>
                         <div class="textos-pilares">
